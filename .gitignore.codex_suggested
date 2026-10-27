@@ -1,0 +1,18 @@
+# Suggested additions to the project's .gitignore (do not overwrite it automatically)
+.venv/
+__pycache__/
+.pytest_cache/
+.hf_cache/
+wandb/
+mlruns/
+artifacts/
+checkpoints/
+experiments/*/checkpoints/
+data/raw/
+data/interim/
+data/processed/
+data/silver/
+data/gold/
+.env
+*.pem
+*.key

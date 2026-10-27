@@ -1,0 +1,64 @@
+{
+  "task": "T-012 R1",
+  "audit_status": "PASS",
+  "interpretation_rule": "Record only semantics stated by the source or project contract. Observed numeric values do not establish label meaning. UNKNOWN is not neutral, absent, or any guessed class.",
+  "label_ledgers": [
+    {
+      "dataset": "VI_COMPANY",
+      "file": "data/raw/vi_company/raw_data.csv",
+      "label_field": "Label",
+      "field_semantics": "Noisy company/ticker tag candidate; this is not a sentiment label.",
+      "source": "Project DATA_CONTRACT.md; source schema Content, Label.",
+      "status": "WARN",
+      "unknowns": ["Whether each tag identifies the company discussed in that row.","No authoritative ticker/company master or source codebook is bundled."],
+      "policy": "Preserve raw tag; do not convert to a verified company identity without R2 evidence."
+    },
+    {
+      "dataset": "VI_SENTIMENT",
+      "files": ["data/raw/vi_sentiment/train.csv","data/raw/vi_sentiment/val.csv","data/raw/vi_sentiment/test.csv"],
+      "label_field": "sentiment",
+      "observed_code_counts": {"0":789,"1":1856,"2":1047},
+      "split_code_counts": {
+        "train":{"0":619,"1":1481,"2":853},
+        "val":{"0":87,"1":187,"2":95},
+        "test":{"0":83,"1":188,"2":99}
+      },
+      "source_evidence": "The official Hugging Face dataset page shows sentiment as integer values 0..2 and says 'No dataset card yet'; no class-name mapping/codebook was found.",
+      "code_to_label": {"0":"UNKNOWN","1":"UNKNOWN","2":"UNKNOWN"},
+      "status": "BLOCKED",
+      "policy": "No supervised use or mapping until an authoritative source codebook is recorded. Do not infer from examples or class frequencies; do not expand global sentiment to aspect labels."
+    },
+    {
+      "dataset": "EN_SENTFIN",
+      "file": "data/raw/en_sentfin/SEntFiN.csv",
+      "label_field": "Decisions",
+      "field_semantics": "Serialized dictionary mapping entity strings to entity-level sentiment; observed accepted classes are negative, neutral, positive.",
+      "source_evidence": "Local schema and existing T-002 parser/audit; source repository identifies itself as SEntFiN dataset and code.",
+      "status": "PASS_FOR_SEMANTICS_WARN_FOR_USE",
+      "limits": ["Entity sentiment is not target-aspect sentiment.","13 parse-error rows remain quarantined for R6-B; this ledger does not repair them.","Dataset rights/revision remain unresolved in provenance ledger."]
+    },
+    {
+      "dataset": "THAI_FINANCE_ASPECT",
+      "file": "data/raw/th_finance/56-1dataset_50.csv",
+      "label_fields": ["aspect","sentiment"],
+      "aspect_counts": {"Profit/Loss":2576,"Social&People":2467,"Governance":1390,"Product/Service":1354,"Economics":986,"Others":963,"Environment":834,"Investment":464,"Financing":302,"Legal":210,"Brand":206,"Political":176,"Technology":142,"Dividend":96,"M&A":78,"Rating":14},
+      "sentiment_counts": {"Neutral":5407,"Positive":4858,"Negative":1993},
+      "source_evidence": "The source README describes aspect and sentiment annotations and defines the 16 categories and three polarities; it states a text may have multiple aspects.",
+      "status": "PASS_FOR_SOURCE_MEANING_WARN_FOR_PROJECT_MAPPING",
+      "limits": ["No mapping to the project's five Vietnamese aspects is asserted.","Row granularity and multi-aspect representation require R6-C review.","Source revision is branch-only and dataset license scope remains WARN in provenance ledger."]
+    },
+    {
+      "dataset": "VI_SILVER_PHOBERT",
+      "file": "data/silver/phobert_dataset.csv",
+      "label_fields": ["label","label_id","overall_summary","business_score","leadership_score","macro_score","capital_score","esg_score"],
+      "observed_overall_label_counts": {"positive":1009,"neutral":381,"negative":240},
+      "observed_label_id_counts": {"2":1009,"1":381,"0":240},
+      "field_semantics": "LLM-generated overall and aspect-score pseudo-labels per T-002 audit; exact prompt, model/version, generation instructions, and verified score-to-label rules are unavailable.",
+      "status": "WARN_FOR_DESCRIPTION_BLOCKED_FOR_SUPERVISED_REUSE",
+      "unknowns": ["Exact LLM/model revision and prompt/version.","Whether scores encode polarity, presence, or a different rubric.","Why label_id uses its observed mapping; do not treat that as a codebook."],
+      "policy": "Silver only; no Gold promotion. Score 0 does not prove absent or neutral."
+    }
+  ],
+  "sources_not_reconciled_to_canonical_gold": ["VI_SENTIMENT global polarity is not aspect-conditioned.","EN_SENTFiN labels entity polarity, not aspect presence/polarity.","Thai labels use a distinct 16-category taxonomy.","Silver is LLM-generated and unverified."],
+  "no_mutations": true
+}

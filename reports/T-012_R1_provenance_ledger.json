@@ -1,0 +1,80 @@
+{
+  "task": "T-012 R1",
+  "audit_status": "PASS",
+  "source_use_gate": "BLOCKED_PENDING_SOURCE_SPECIFIC_RIGHTS_PASS",
+  "audited_at": "2026-10-27",
+  "mode": "local metadata and SHA-256 verification; source documentation consulted without downloading dataset files",
+  "manifest": {
+    "path": "data/raw/download_manifest.json",
+    "downloaded_at_utc": "2026-10-24T16:15:54.685589+00:00",
+    "entries": 6,
+    "license_fields_present": false
+  },
+  "sources": [
+    {
+      "dataset": "VI_COMPANY",
+      "local_files": [{"path":"data/raw/vi_company/raw_data.csv","bytes":37884021,"rows":10400,"sha256":"3053a897d55c2668c991e1d16c0b9585fc4b048d309036ee13dde144cd8abe10","manifest_sha256_match":true}],
+      "source_url": "https://huggingface.co/datasets/duongnghia222/vietnam_finance_news_company_tagged",
+      "recorded_revision": "299d5628016f76f4ff8389b1e4ab7865432a066a",
+      "revision_pinned": true,
+      "source_documentation_url": "https://huggingface.co/datasets/duongnghia222/vietnam_finance_news_company_tagged",
+      "license_evidence": {"status":"WARN","declared":"MIT","evidence":"Hugging Face dataset metadata currently displays MIT; the retrieved page does not provide a dataset card explaining underlying article-content rights or license scope at the manifest revision."},
+      "permitted_use": "UNKNOWN_PENDING_SCOPE_REVIEW",
+      "r1_status": "WARN",
+      "notes": ["Integrity is PASS: local SHA-256 matches the pinned-revision manifest entry.","No label/license metadata exists in the local download manifest.","Do not use for annotation data until rights scope is confirmed for the intended use."]
+    },
+    {
+      "dataset": "VI_SENTIMENT",
+      "local_files": [
+        {"path":"data/raw/vi_sentiment/train.csv","bytes":3364571,"rows":2953,"sha256":"6854c32c27df72b7a066f9fbc484865fb36589a0e301290904861fa703b354a2","manifest_sha256_match":true},
+        {"path":"data/raw/vi_sentiment/val.csv","bytes":417591,"rows":369,"sha256":"ed2a5cc18bb925714ffc262f8f46979e9e12ce6b8ce5515849b5df2740469147","manifest_sha256_match":true},
+        {"path":"data/raw/vi_sentiment/test.csv","bytes":415467,"rows":370,"sha256":"a6d7b0289b01164249a5ae74232df47219f87c48d27c068d4537b275a09ff5b2","manifest_sha256_match":true}
+      ],
+      "source_url": "https://huggingface.co/datasets/duong2110/finance-sentiment-vietnamese",
+      "recorded_revision": "411f4a5ca9dfbc4f6be8d1a5889f028e42daa64f",
+      "revision_pinned": true,
+      "source_documentation_url": "https://huggingface.co/datasets/duong2110/finance-sentiment-vietnamese",
+      "license_evidence": {"status":"NOT_FOUND","declared":null,"evidence":"The source page says 'No dataset card yet'; no license field or codebook was present in available source documentation."},
+      "permitted_use": "UNKNOWN_NOT_PERMISSION",
+      "r1_status": "BLOCKED",
+      "notes": ["All three local hashes match the manifest at the recorded dataset revision.","Do not infer class meanings from examples or neighboring projects.","No supervised use of these label codes until an authoritative codebook is found."]
+    },
+    {
+      "dataset": "EN_SENTFIN",
+      "local_files": [{"path":"data/raw/en_sentfin/SEntFiN.csv","bytes":1118162,"rows":10753,"sha256":"570af7ba58f724f3fcc414dd5ba80da5b1a3b342134d76c6ebdf53a32c54a92f","manifest_sha256_match":true}],
+      "source_url": "https://raw.githubusercontent.com/pyRis/SEntFiN/main/SEntFiN.csv",
+      "recorded_revision": "main (recorded source URL and content hash)",
+      "revision_pinned": false,
+      "source_documentation_url": "https://github.com/pyRis/SEntFiN",
+      "license_evidence": {"status":"WARN","declared":"MIT repository LICENSE","evidence":"The repository contains LICENSE (MIT) and SEntFiN.csv, but available documentation does not separately state whether the repository license covers the dataset text."},
+      "permitted_use": "UNKNOWN_PENDING_DATASET_SCOPE_REVIEW",
+      "r1_status": "BLOCKED",
+      "notes": ["Integrity is PASS: local SHA-256 matches the recorded manifest hash.","The manifest identifies mutable branch main, not an immutable commit.","Do not assume a code/software license establishes rights for included headline text."]
+    },
+    {
+      "dataset": "THAI_FINANCE_ASPECT",
+      "local_files": [{"path":"data/raw/th_finance/56-1dataset_50.csv","bytes":17887084,"rows":12258,"sha256":"d1e73049a81aef75be5132bc754d9a30030ef47cece2dd04cdc996ea2d972928","manifest_sha256_match":true}],
+      "source_url": "https://raw.githubusercontent.com/nlp-chula/finnlp-sentiment/main/56-1dataset_50.csv",
+      "recorded_revision": "main (recorded source URL and content hash)",
+      "revision_pinned": false,
+      "source_documentation_url": "https://github.com/nlp-chula/finnlp-sentiment",
+      "license_evidence": {"status":"WARN","declared":"CC BY 4.0 in repository README","evidence":"The README has a CC BY 4.0 license section; data-specific scope for the CSV and underlying filing text is not separately identified."},
+      "permitted_use": "ATTRIBUTION_REQUIRED_SCOPE_REVIEW_PENDING",
+      "r1_status": "WARN",
+      "notes": ["Integrity is PASS: local SHA-256 matches the recorded manifest hash.","The manifest identifies mutable branch main, not an immutable commit.","Preserve attribution; confirm the license applies to the dataset before use."]
+    },
+    {
+      "dataset": "VI_SILVER_PHOBERT",
+      "local_files": [{"path":"data/silver/phobert_dataset.csv","bytes":828825,"rows":1630,"sha256":"93edea2c7babc9432a42259a2d0e48e4ac316e53b44e044483f6a87a1ae1081e","manifest_sha256_match":null}],
+      "source_url": null,
+      "recorded_revision": null,
+      "revision_pinned": false,
+      "source_documentation_url": null,
+      "license_evidence": {"status":"NOT_FOUND","declared":null,"evidence":"No Silver entry in download_manifest.json and no source/license/model card or generation manifest found in the audited local artifacts."},
+      "llm_generation_metadata": {"origin":"LLM-generated (per T-002 audit record)","model":null,"model_revision":null,"prompt":null,"prompt_version":null,"generated_at":null,"status":"UNKNOWN"},
+      "permitted_use": "UNKNOWN_NOT_PERMISSION",
+      "r1_status": "BLOCKED",
+      "notes": ["The hash is a local integrity fingerprint only; no expected source hash exists for comparison.","Never promote Silver to Gold or infer permission from its presence in the workspace.","LLM label provenance is insufficient for supervised-label reuse without the missing generation record."]
+    }
+  ]
+}

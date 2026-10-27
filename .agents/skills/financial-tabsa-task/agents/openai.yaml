@@ -1,0 +1,3 @@
+interface:
+  display_name: "Financial TABSA Task"
+  short_description: "Run one task with data/ML checks and concise handoff"

@@ -1,0 +1,37 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Hugging Face cache
+.hf_cache/
+.cache/
+
+# Datasets
+data/raw/
+data/processed/
+data/silver/
+data/gold/
+
+# Model checkpoints
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Training outputs
+experiments/
+runs/
+wandb/
+logs/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.bak

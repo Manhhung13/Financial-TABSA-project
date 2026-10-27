@@ -1,0 +1,378 @@
+{
+  "task": "T-012 R2",
+  "version": "1.0.0",
+  "created_at": "2026-10-27",
+  "scope": "All 29 Silver codes are represented in master; selected high-risk VI tags only, not all 910 VI tags.",
+  "source_files": [
+    {
+      "path": "data/silver/phobert_dataset.csv",
+      "sha256": "93edea2c7babc9432a42259a2d0e48e4ac316e53b44e044483f6a87a1ae1081e",
+      "rows": 1630
+    },
+    {
+      "path": "data/raw/vi_company/raw_data.csv",
+      "sha256": "3053a897d55c2668c991e1d16c0b9585fc4b048d309036ee13dde144cd8abe10",
+      "rows": 10400
+    }
+  ],
+  "silver_ticker_candidates": [
+    {
+      "raw_tag": "HPG",
+      "normalized_candidate": "HPG",
+      "frequency": 215,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-HPG",
+      "priority_rank": 1
+    },
+    {
+      "raw_tag": "MWG",
+      "normalized_candidate": "MWG",
+      "frequency": 210,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-MWG",
+      "priority_rank": 2
+    },
+    {
+      "raw_tag": "VNM",
+      "normalized_candidate": "VNM",
+      "frequency": 123,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-VNM",
+      "priority_rank": 3
+    },
+    {
+      "raw_tag": "MSN",
+      "normalized_candidate": "MSN",
+      "frequency": 122,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-MSN",
+      "priority_rank": 4
+    },
+    {
+      "raw_tag": "VIC",
+      "normalized_candidate": "VIC",
+      "frequency": 121,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-VIC",
+      "priority_rank": 5
+    },
+    {
+      "raw_tag": "FPT",
+      "normalized_candidate": "FPT",
+      "frequency": 91,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-FPT",
+      "priority_rank": 6
+    },
+    {
+      "raw_tag": "VJC",
+      "normalized_candidate": "VJC",
+      "frequency": 91,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-VJC",
+      "priority_rank": 7
+    },
+    {
+      "raw_tag": "PLX",
+      "normalized_candidate": "PLX",
+      "frequency": 75,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-PLX",
+      "priority_rank": 8
+    },
+    {
+      "raw_tag": "GAS",
+      "normalized_candidate": "GAS",
+      "frequency": 74,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-GAS",
+      "priority_rank": 9
+    },
+    {
+      "raw_tag": "VHM",
+      "normalized_candidate": "VHM",
+      "frequency": 65,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-VHM",
+      "priority_rank": 10
+    },
+    {
+      "raw_tag": "SAB",
+      "normalized_candidate": "SAB",
+      "frequency": 62,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-SAB",
+      "priority_rank": 11
+    },
+    {
+      "raw_tag": "BCM",
+      "normalized_candidate": "BCM",
+      "frequency": 52,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-BCM",
+      "priority_rank": 12
+    },
+    {
+      "raw_tag": "GVR",
+      "normalized_candidate": "GVR",
+      "frequency": 43,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-GVR",
+      "priority_rank": 13
+    },
+    {
+      "raw_tag": "VRE",
+      "normalized_candidate": "VRE",
+      "frequency": 33,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-VRE",
+      "priority_rank": 14
+    },
+    {
+      "raw_tag": "MBB",
+      "normalized_candidate": "MBB",
+      "frequency": 28,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-MBB",
+      "priority_rank": 15
+    },
+    {
+      "raw_tag": "LPB",
+      "normalized_candidate": "LPB",
+      "frequency": 26,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-LPB",
+      "priority_rank": 16
+    },
+    {
+      "raw_tag": "SSI",
+      "normalized_candidate": "SSI",
+      "frequency": 22,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-SSI",
+      "priority_rank": 17
+    },
+    {
+      "raw_tag": "STB",
+      "normalized_candidate": "STB",
+      "frequency": 21,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-STB",
+      "priority_rank": 18
+    },
+    {
+      "raw_tag": "TCB",
+      "normalized_candidate": "TCB",
+      "frequency": 19,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-TCB",
+      "priority_rank": 19
+    },
+    {
+      "raw_tag": "HDB",
+      "normalized_candidate": "HDB",
+      "frequency": 18,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-HDB",
+      "priority_rank": 20
+    },
+    {
+      "raw_tag": "SHB",
+      "normalized_candidate": "SHB",
+      "frequency": 17,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-SHB",
+      "priority_rank": 21
+    },
+    {
+      "raw_tag": "VPB",
+      "normalized_candidate": "VPB",
+      "frequency": 15,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-VPB",
+      "priority_rank": 22
+    },
+    {
+      "raw_tag": "TPB",
+      "normalized_candidate": "TPB",
+      "frequency": 14,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-TPB",
+      "priority_rank": 23
+    },
+    {
+      "raw_tag": "VCB",
+      "normalized_candidate": "VCB",
+      "frequency": 14,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-VCB",
+      "priority_rank": 24
+    },
+    {
+      "raw_tag": "VIB",
+      "normalized_candidate": "VIB",
+      "frequency": 14,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-VIB",
+      "priority_rank": 25
+    },
+    {
+      "raw_tag": "ACB",
+      "normalized_candidate": "ACB",
+      "frequency": 13,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-ACB",
+      "priority_rank": 26
+    },
+    {
+      "raw_tag": "SSB",
+      "normalized_candidate": "SSB",
+      "frequency": 12,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-SSB",
+      "priority_rank": 27
+    },
+    {
+      "raw_tag": "BID",
+      "normalized_candidate": "BID",
+      "frequency": 10,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-BID",
+      "priority_rank": 28
+    },
+    {
+      "raw_tag": "CTG",
+      "normalized_candidate": "CTG",
+      "frequency": 10,
+      "review_status": "verified_as_of_reference",
+      "master_record_id": "T012-R2-SILVER-CTG",
+      "priority_rank": 29
+    }
+  ],
+  "vi_company_review_candidates": [
+    {
+      "candidate_id": "VI-TAG-CEO",
+      "source_dataset": "VI_COMPANY",
+      "raw_tag": "CEO",
+      "normalized_candidate": "CEO",
+      "alias_type": "unknown",
+      "affected_rows": 32,
+      "priority": "P0",
+      "review_status": "needs_review",
+      "classification": "heuristic_warning_not_confirmed_error",
+      "reason": "company acronym is also a common executive-role term; article context includes both",
+      "verification_reference": null,
+      "mapping": null,
+      "decision": "No correction or company mapping assigned; inspect source provenance and independently verify before Gold use."
+    },
+    {
+      "candidate_id": "VI-TAG-EPS",
+      "source_dataset": "VI_COMPANY",
+      "raw_tag": "EPS",
+      "normalized_candidate": "EPS",
+      "alias_type": "unknown",
+      "affected_rows": 1,
+      "priority": "P1",
+      "review_status": "needs_review",
+      "classification": "heuristic_warning_not_confirmed_error",
+      "reason": "financial metric acronym; potential company-tag/metric collision",
+      "verification_reference": null,
+      "mapping": null,
+      "decision": "No correction or company mapping assigned; inspect source provenance and independently verify before Gold use."
+    },
+    {
+      "candidate_id": "VI-TAG-MOU",
+      "source_dataset": "VI_COMPANY",
+      "raw_tag": "MOU",
+      "normalized_candidate": "MOU",
+      "alias_type": "unknown",
+      "affected_rows": 1,
+      "priority": "P1",
+      "review_status": "needs_review",
+      "classification": "heuristic_warning_not_confirmed_error",
+      "reason": "common document acronym; potential non-issuer tag",
+      "verification_reference": null,
+      "mapping": null,
+      "decision": "No correction or company mapping assigned; inspect source provenance and independently verify before Gold use."
+    },
+    {
+      "candidate_id": "VI-TAG-NAV",
+      "source_dataset": "VI_COMPANY",
+      "raw_tag": "NAV",
+      "normalized_candidate": "NAV",
+      "alias_type": "unknown",
+      "affected_rows": 3,
+      "priority": "P1",
+      "review_status": "needs_review",
+      "classification": "heuristic_warning_not_confirmed_error",
+      "reason": "financial metric acronym; potential non-issuer tag",
+      "verification_reference": null,
+      "mapping": null,
+      "decision": "No correction or company mapping assigned; inspect source provenance and independently verify before Gold use."
+    },
+    {
+      "candidate_id": "VI-TAG-NIM",
+      "source_dataset": "VI_COMPANY",
+      "raw_tag": "NIM",
+      "normalized_candidate": "NIM",
+      "alias_type": "unknown",
+      "affected_rows": 1,
+      "priority": "P1",
+      "review_status": "needs_review",
+      "classification": "heuristic_warning_not_confirmed_error",
+      "reason": "banking metric acronym; potential issuer/metric collision",
+      "verification_reference": null,
+      "mapping": null,
+      "decision": "No correction or company mapping assigned; inspect source provenance and independently verify before Gold use."
+    },
+    {
+      "candidate_id": "VI-TAG-ROA",
+      "source_dataset": "VI_COMPANY",
+      "raw_tag": "ROA",
+      "normalized_candidate": "ROA",
+      "alias_type": "unknown",
+      "affected_rows": 2,
+      "priority": "P1",
+      "review_status": "needs_review",
+      "classification": "heuristic_warning_not_confirmed_error",
+      "reason": "financial metric acronym; potential non-issuer tag",
+      "verification_reference": null,
+      "mapping": null,
+      "decision": "No correction or company mapping assigned; inspect source provenance and independently verify before Gold use."
+    },
+    {
+      "candidate_id": "VI-TAG-E&C",
+      "source_dataset": "VI_COMPANY",
+      "raw_tag": "E&C",
+      "normalized_candidate": "E&C",
+      "alias_type": "unknown",
+      "affected_rows": 1,
+      "priority": "P1",
+      "review_status": "needs_review",
+      "classification": "heuristic_warning_not_confirmed_error",
+      "reason": "nonstandard punctuation format; alias identity unverified",
+      "verification_reference": null,
+      "mapping": null,
+      "decision": "No correction or company mapping assigned; inspect source provenance and independently verify before Gold use."
+    },
+    {
+      "candidate_id": "VI-TAG-N.Q",
+      "source_dataset": "VI_COMPANY",
+      "raw_tag": "N.Q",
+      "normalized_candidate": "N.Q",
+      "alias_type": "unknown",
+      "affected_rows": 1,
+      "priority": "P1",
+      "review_status": "needs_review",
+      "classification": "heuristic_warning_not_confirmed_error",
+      "reason": "nonstandard punctuation format; alias identity unverified",
+      "verification_reference": null,
+      "mapping": null,
+      "decision": "No correction or company mapping assigned; inspect source provenance and independently verify before Gold use."
+    }
+  ],
+  "other_target_bearing_datasets": {
+    "SEntFiN": "not included: entity strings are outside this bounded Vietnamese issuer scope; identity and license gates remain separate",
+    "Thai": "not included: R6-C taxonomy/granularity is the relevant subtask; no mapping attempted"
+  }
+}

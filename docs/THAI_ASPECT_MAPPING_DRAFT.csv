@@ -1,0 +1,17 @@
+thai_aspect,vi_aspect_candidate,automatic_mapping,notes
+Brand,,no,Brand is not necessarily one of the five aspects; manual review
+Product/Service,business_financials,no,Only if a direct business-performance implication is evidenced
+Environment,legal_esg,no,Check company target and environmental activity
+Social & People,leadership_insider | legal_esg,no,Management vs employment and social issues differ
+Governance,leadership_insider | legal_esg,no,Board changes vs governance risk must be distinguished
+Economics,macro_policy,no,Requires evidence of relationship to target
+Political,macro_policy,no,Requires evidence of relationship to target
+Legal,legal_esg,no,Check scope of legal event and target
+Dividend,capital_structure,no,Dividend action is usually capital-related
+Investment,business_financials | capital_structure,no,Investment context may differ
+M&A,business_financials | capital_structure,no,Acquisition and financing effects differ
+Profit/Loss,business_financials,no,Check what profit comparison implies
+Rating,,no,Rating is ambiguous without context
+Financing,capital_structure,no,Debt/equity financing and capital actions
+Technology,,no,No universal correspondence; needs guideline
+Others,,no,Out-of-taxonomy cases require review

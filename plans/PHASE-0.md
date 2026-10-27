@@ -1,0 +1,2 @@
+# Phase 0: Inspect repository, data and Gold gates
+Tasks T-001, T-002, T-003. Read `DOMAIN_RULES.md` and `DATA_CONTRACT.md` only. Verify current starter scripts exist, audit data shape and provenance. Correct source contradiction (LLM score != test gold); group and timestamp all lines before splitting. Gold test sealed. Exit: schema validation, split manifest, explicit Gold annotation guideline and human-reviewed sample set. Blocker if no verified labels.

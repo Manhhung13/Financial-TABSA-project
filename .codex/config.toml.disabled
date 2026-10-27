@@ -1,0 +1,4 @@
+# Project-scoped Codex settings. Loads only when this repo is trusted.
+# No model pinning by default: avoids failure on accounts without model access.
+[agents]
+# To assign models per role, see docs/MODEL_ROUTING.md and tools/set_model_pins.ps1.

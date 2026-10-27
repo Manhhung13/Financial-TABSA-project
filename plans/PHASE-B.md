@@ -1,0 +1,2 @@
+# Phase B: English entity sentiment (SEntFiN)
+Input: original English headline, target company, one 3-class label per labeled entity. Group headlines before split, retain multiple companies with conflicting labels. Initialize from tested encoder_A only for combined path; standalone B path starts from base for ablation. New classification head, CE loss, macro-F1 plus multi-entity slice. Keep head_B separate from MLM. Check adapter transfer load keys and log. Exit: entity model reproducible on EN val, no Gold leakage, stage checkpoint and eval artifacts. See T-006.

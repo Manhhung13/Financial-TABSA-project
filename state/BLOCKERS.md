@@ -1,0 +1,36 @@
+# Open blockers / assumptions
+- BLK-001: Verify actual repository file layout; governance pack not automatically reconciled with `D:\financial-tabsa` code.
+- BLK-002: No human Gold test has been shown; LLM Silver cannot substitute for evaluation.
+- BLK-003: Check true Thai label shape and exact 16-class mapping before Stage C.
+- BLK-004: Verify LoRA A->B->C->D adapter compatibility in code before costly runs.
+- BLK-005: Dataset licensing and source revision must be recorded in intake manifests.
+- BLK-006: T-002 scan found no files under data/gold; no verified Vietnamese Gold splits exist.
+- BLK-007: Vietnamese general sentiment codes 0/1/2 remain UNKNOWN; the official dataset page exposes integers 0-2 but no dataset card/codebook. Do not map or train on them by assumption.
+- BLK-008: Thai data has 16 aspect classes; mapping and row granularity need human review before Stage C.
+- BLK-009: SEntFiN has 13 malformed Decisions rows; 67 duplicate headline rows require lineage/group review.
+- BLK-010: VI company, Thai, and Silver contain exact text duplicates (347, 1,801, 197 extra rows); near/event leakage remains unchecked.
+- BLK-011: Download manifest has no license fields; Silver has no source/license record. VI company lists MIT, SEntFiN repository includes MIT, and Thai repository README declares CC BY 4.0, but corpus/data-specific rights scope remains unconfirmed.
+- BLK-012: Project .venv references missing Python 3.11; system Python 3.13 ran T-002 audit but pytest environment is unverified.
+- BLK-013: No authoritative ticker/company alias reference exists locally; 910 VI-company, 29 Silver, 3,987 SEntFiN, and 50 Thai normalized target strings remain identity-unverified. Heuristic review candidates are documented; no mapping was inferred.
+- BLK-014 (Gold Pilot R1): Rights/use evidence must PASS per source before annotation-data execution; this gate is source-scoped. T-003A design-only is exempt.
+- BLK-015 (Gold Pilot R2): Each target used in Gold Pilot data must have verified identity from a trustworthy cited reference; unresolved targets stay needs_review and are excluded.
+- BLK-016 (Gold Pilot R3): Exact/near/event/translation grouping protocol and row-level review evidence must PASS before T-003B; duplicates are preserved, never auto-deleted.
+- BLK-017 (independent Stage B R6-B): SEntFiN parse quarantine, entity-level label handling, headline grouping and source rights must PASS before Stage B data use.
+- BLK-018 (independent Stage C R6-C): Thai rights, granularity and 16-category mapping review must PASS before Stage C data use; this does not gate the Gold Pilot.
+- BLK-019 (optional Silver R4): 13 conflicting ticker/text groups and incomplete provenance block Silver-derived candidate use until reviewed; Silver is never Gold.
+- BLK-020 (environment R5): project .venv references absent Python 3.11; automated checks requiring that environment remain blocked pending authorized repair/verification.
+- BLK-021 (R1): VI general sentiment label meanings for codes 0/1/2 are UNKNOWN; source documentation found no codebook. Exclude these labels from supervised use until sourced.
+- BLK-022 (R1): VI company, SEntFiN and Thai have repository/page license declarations, but scope at the exact source revision and rights for embedded article/filing content are not established; T-003B use remains blocked pending source-specific PASS.
+- BLK-023 (R1): Silver has a local hash only; source URL/revision/license and LLM model/prompt/version/generation date are UNKNOWN. Keep Silver out of Gold and block pseudo-label reuse pending provenance.
+- BLK-024 (R1): SEntFiN and Thai download records point to mutable `main` branches; local content hashes match the manifest, but immutable source commits are missing.
+- BLK-027 (R3): 38,733 source rows have no adjudicated document/event lineage; 1,604 near-text pairs and exact duplicate groups require human review before group-safe splitting. No Gold test exists; test decontamination remains deferred until seal.
+- BLK-028 (R3 validation): `python tools/validate_governance.py` reports missing required `.codex/config.toml`; R3 artifact JSON/count checks and Python compile pass, but governance validator is blocked.
+- BLK-029 (R4): Silver has 13 repeated ticker/text groups with conflicting overall labels and 74 additional repeated-text groups with aspect-score disagreement. All 1,630 rows remain unverified; source/license/model/prompt/version/date/rubric are unavailable. Exclude Silver label reuse unless provenance and human adjudication clear the intended use; never promote to Gold.
+- BLK-030 (R5): `.venv` cannot launch its configured standalone Python 3.11.7 interpreter; no live project-stack `pip check` or imports are possible. `requirements_extra.txt` pandas `<3` conflicts with `requirements.txt` pandas `==3.1.0`. Environment recreation and package installation require separate authorization.
+- BLK-031 (R6): Environment repair preflight halted because `README_WINDOWS.md` prescribes `requirements_extra.txt` (pandas `<3`) while `requirements.txt` pins pandas `==3.1.0`; no shared resolution. Select canonical-manifest policy or approve compatible pin reconciliation before backing up/recreating `.venv` or installing packages.
+
+Mark blocker RESOLVED only with file/code evidence; do not silently assume.
+- BLK-025 (R2): 8 selected VI company tag candidates (CEO, EPS, MOU, NAV, NIM, ROA, E&C, N.Q; 42 occurrences) remain heuristic warnings with no verified issuer mapping. Keep them `needs_review`; no correction is inferred.
+- BLK-026 (R2): 902 normalized VI company tags outside the selected high-risk subset and 28 normalization-collision groups remain unverified. R2 evidence covers only the 29 Silver ticker identities and selected VI warning candidates; do not claim a complete VI alias master.
+- BLK-013 update (2026-10-27): the 29 Silver ticker identities are now verified as of cited official exchange/issuer/regulator references in `reports/T-012_R2_issuer_alias_master.json`. This partially resolves BLK-013; VI company, SEntFiN and Thai identity scope remains open.
+- BLK-015 update (2026-10-27): the cited R2 master supplies identity evidence for the 29 Silver tickers only. It does not clear Silver source rights under BLK-023; any unverified target remains excluded from T-003B.

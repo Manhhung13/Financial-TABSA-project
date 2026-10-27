@@ -1,0 +1,9 @@
+﻿source,language,role,split,rows,column_names,text_col,text_detection,target_col,aspect_col,sentiment_col,missing_text,missing_sentiment,distinct_sentiments
+vi_company_candidates.csv,vi,metadata,none,10400,source_id | text | ticker_candidate | tag_needs_review | tag_verified | text_hash,text,alias,,,,0,[NO COLUMN],
+vi_company_dapt_candidates.csv,vi,dapt,none,10053,source_id | source_dataset | language | text | text_hash,text,alias,,,,0,[NO COLUMN],
+vi_company_suspicious_tags.csv,vi,review,none,40,source_id | ticker_candidate | text,text,alias,,,,0,[NO COLUMN],
+en_sentfin_entity_sentiment.csv,en,supervised,none,14371,source_id | language | text | target | sentiment | text_hash | label_level | aspect | gold_vi,text,alias,target,aspect,sentiment,0,0,negative | neutral | positive
+th_finance_aspect_original.csv,th,supervised,none,12258,source_id | language | text | firm_raw | year_raw | section_raw | aspect_raw | sentiment_raw | text_hash,text,alias,,,sentiment_raw,0,0,Negative | Neutral | Positive
+vi_sentiment_train_unverified.csv,vi,supervised,train,2953,source_id | original_split | text | sentiment_raw | label_mapping_verified | text_hash,text,alias,,,sentiment_raw,0,0,0 | 1 | 2
+vi_sentiment_val_unverified.csv,vi,supervised,val,369,source_id | original_split | text | sentiment_raw | label_mapping_verified | text_hash,text,alias,,,sentiment_raw,0,0,0 | 1 | 2
+vi_sentiment_test_unverified.csv,vi,supervised,test,370,source_id | original_split | text | sentiment_raw | label_mapping_verified | text_hash,text,alias,,,sentiment_raw,0,0,0 | 1 | 2

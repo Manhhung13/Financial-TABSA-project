@@ -1,0 +1,34 @@
+{
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "safe_to_start_final_supervised_training": false,
+  "reason": "Original label definitions, double-blind annotations, and event-level leakage review require human validation.",
+  "sources_read": 8,
+  "cross_split_pair_checks": 5,
+  "exact_matches_to_investigate": 0,
+  "near_duplicate_candidates_to_investigate": 0,
+  "label_conflict_groups_to_investigate": 223,
+  "blinded_examples_per_annotator": 300,
+  "gold_files_found_not_necessarily_verified": false,
+  "silver_files_checked": false,
+  "near_threshold": 0.85,
+  "near_method_and_limitations": "Lexical similarity using Vietnamese character 3-5-gram TF-IDF; semantic/event-level matching is NOT guaranteed",
+  "warnings": [
+    "VI sentiment code mapping 0/1/2 is UNVERIFIED: inspect dataset documentation; never auto-map.",
+    "SEntFiN is ENTITY sentiment; Thai is ASPECT+sentiment. Task/head mismatch requires explicit modeling.",
+    "40 suspect VI company tags and 13 SEntFiN parse warnings were present in prior step; review upstream records.",
+    "Silver pseudo-labels never automatically become Gold; LLM score=0 is not proof of neutrality/absence.",
+    "Exact/lexical similarity cannot detect translated/semantically paraphrased duplicates or same-event articles.",
+    "Grouping by article/event should occur BEFORE train/validation/test splitting and augmentation.",
+    "Silver dataset was not discovered: pass --silver path_to_file_or_folder; Silver leakage NOT checked",
+    "No manually verified Gold dataset found/attested; an automated audit cannot create one"
+  ],
+  "quality_gates": [
+    "Verify raw source and exact meaning of ALL sentiment/aspect labels (esp. Vietnamese codes 0/1/2)",
+    "Review parse warnings, suspected tags, and conflicting label rows",
+    "Two independent blinded annotators + adjudication; preserve a versioned Gold test set",
+    "Resolve each exact/near match crossing train/validation/test, Silver, and DAPT",
+    "Group by article_id/source URL/event cluster BEFORE splitting; no translation/augmentation across splits",
+    "Check entity/aspect targets (same text may legitimately have different target labels)",
+    "Keep held-out Gold Test untouched during model selection and continued pretraining"
+  ]
+}

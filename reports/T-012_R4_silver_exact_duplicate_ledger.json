@@ -1,0 +1,7260 @@
+[
+  {
+    "group_id": "dup_1889edf19fe72cbe",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "6905d9c4c2740246af3f127df267c2e3cf79daaa068b00f86b93f193e82ca077",
+    "row_ids": [
+      "VI_SILVER:2",
+      "VI_SILVER:1427"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_5fd55d8b43197661",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "a9aa11444579c3b974f187248cbc46f050bd51ec7db09c0466cff208a818e80c",
+    "row_ids": [
+      "VI_SILVER:3",
+      "VI_SILVER:1428"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.3"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_07fd2301147d046a",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "dae70bfa88d57e2b986b88ba6006a38fae85ba44adb1dae40c18df55a8b94452",
+    "row_ids": [
+      "VI_SILVER:4",
+      "VI_SILVER:1429"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "-0.6",
+        "-0.7"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ba6591eeaa6c342f",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "1d91ae836d9216e25b21af4fdbaa50d000c8f7665c2c090eb374ca4a50e2e1d3",
+    "row_ids": [
+      "VI_SILVER:5",
+      "VI_SILVER:1430"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7",
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.7",
+        "0.8"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_580b8d3a76914324",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "3da26d351ba07b6ea680b9047d486d3d53995016d0bfb123fceb6363cb8d2079",
+    "row_ids": [
+      "VI_SILVER:6",
+      "VI_SILVER:1431"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7",
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_635d3a9e4b7c7a84",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "b393cbb4c48d0c2670989c3800c80dd5c2e8e27389776b8ace0b81cee4613096",
+    "row_ids": [
+      "VI_SILVER:7",
+      "VI_SILVER:1432"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.2",
+        "0.3"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.7",
+        "0.8"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_cf469b68d48b8af7",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "664af23d5e02ce63d570fc6a5c09c95294ab0b54e88f3b934e750c6f18c62955",
+    "row_ids": [
+      "VI_SILVER:8",
+      "VI_SILVER:1433"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.2",
+        "0.3"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_b46a581abecfc180",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "de47f085ee64949074744b50f5676142c340109051106671d89f28937bff4b5b",
+    "row_ids": [
+      "VI_SILVER:9",
+      "VI_SILVER:1434"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6",
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_a7c4458f7741f468",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "84fbabb56d9ff2d9bb4e23eb2fa0071687aa06e9c0087ee505ce29ca8c320628",
+    "row_ids": [
+      "VI_SILVER:10",
+      "VI_SILVER:1435"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "-0.2"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_cdb7d8934373df3b",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "15fd266538f6862f864c7ddbc2e38f4a88dc7134ff11a1700036788efe47eddb",
+    "row_ids": [
+      "VI_SILVER:11",
+      "VI_SILVER:1436"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "-0.6"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_7a87b2e6a76ef437",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "683b7064b3c967969aa3a4f20a10658b92a94d51c5efb1d20342d33dca0d40c2",
+    "row_ids": [
+      "VI_SILVER:12",
+      "VI_SILVER:1437"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.2",
+        "-0.3"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_07a780c867232fe2",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "c98803ed83170ff5108217adea4f8a42f87754ea182e60bf7166a6a0aa44a079",
+    "row_ids": [
+      "VI_SILVER:13",
+      "VI_SILVER:1438"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.3",
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "-0.5",
+        "-0.7"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_5d3a1a0d6eceed9d",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "d8cb6a06ae1521cae4884a16e2263013c6faa1e8d3eaf01cb1551aba0e8cbb1d",
+    "row_ids": [
+      "VI_SILVER:14",
+      "VI_SILVER:1439"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8",
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_3fd37fc1ad568e69",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "8459a4e16dad7b8918fa6c2c96c64ec7cc819e7c1b40dbb4dee8aee7e897f0ec",
+    "row_ids": [
+      "VI_SILVER:15",
+      "VI_SILVER:1440"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6",
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_f724803dde8b7b53",
+    "ticker_raw_values": [
+      "BCM"
+    ],
+    "normalized_ticker": "BCM",
+    "normalized_content_sha256": "90cc23e4e9f49cb8aa163089891c4f12480f6f14e8f5ac0461805b8f20509691",
+    "row_ids": [
+      "VI_SILVER:16",
+      "VI_SILVER:1441"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7",
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.6"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_70a2282c15891356",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "d9a1f7fe7d17cb3b7b7185fbd464163999b9590ad3846cd156d694629d32f3c3",
+    "row_ids": [
+      "VI_SILVER:17",
+      "VI_SILVER:704",
+      "VI_SILVER:1412"
+    ],
+    "row_count": 3,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.6"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_3cfc7ac84df35aba",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "63cf9a6e1b2ad0c0e4645f23416edd393da0837804e8edf8e6e12abd3345879b",
+    "row_ids": [
+      "VI_SILVER:18",
+      "VI_SILVER:1413"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_b90319447eb32387",
+    "ticker_raw_values": [
+      "SAB"
+    ],
+    "normalized_ticker": "SAB",
+    "normalized_content_sha256": "e7b76193c2ff0035a0eb9b79e3bb98094c90daa47ac1cdbfe25b2eae815fd4f4",
+    "row_ids": [
+      "VI_SILVER:19",
+      "VI_SILVER:1414"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.4"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_acefd81f6c331e9f",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "6ceb410816f06c98b6be245b4f53992423de1e7cdef23452cef884097994147a",
+    "row_ids": [
+      "VI_SILVER:20",
+      "VI_SILVER:1415"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.5"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_8f5e2ed9d0ad7be1",
+    "ticker_raw_values": [
+      "PLX"
+    ],
+    "normalized_ticker": "PLX",
+    "normalized_content_sha256": "f04f73217bb0a8ac156542e416e8dea498573fd4ca5e75f9d6e14dac541aac14",
+    "row_ids": [
+      "VI_SILVER:21",
+      "VI_SILVER:1416"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_f4dd8ffeca2b3e4e",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "e0b73294e662d4e8623202606a382ceb748dc543a478d0754ad3892c5648e664",
+    "row_ids": [
+      "VI_SILVER:22",
+      "VI_SILVER:1417"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.9"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_6f5107ae51ae6903",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "84e7cc6030fdfb40b1522f016224d3a2ba6b54fb08a8a93dbbfbd2f3fc5f6436",
+    "row_ids": [
+      "VI_SILVER:23",
+      "VI_SILVER:537",
+      "VI_SILVER:1418"
+    ],
+    "row_count": 3,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.5",
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.1",
+        "0.3"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_13f6c5e29c7099d2",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "3c902a9e7cbd82ce64a4f77385a2b70ca75e709f7c9e180969f7e48623319850",
+    "row_ids": [
+      "VI_SILVER:24",
+      "VI_SILVER:1018",
+      "VI_SILVER:1419"
+    ],
+    "row_count": 3,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.8"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_afc85802a7c6419d",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "0489c48e9b0a43e38218e4d3a9e7988431a45b30d9c9d60f4957c0ede3372439",
+    "row_ids": [
+      "VI_SILVER:25",
+      "VI_SILVER:1420"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_f9652dc27922394c",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "757750897f61dc6c3f0166f2b2ced81f553eb8a487897997c3a59c3a351910d3",
+    "row_ids": [
+      "VI_SILVER:26",
+      "VI_SILVER:1421"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "1.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_4ff9710e285c0a13",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "62371b587007d0ad30818d837fb3b77e9ea7d13c4ab215851ff09d9a29409ee3",
+    "row_ids": [
+      "VI_SILVER:27",
+      "VI_SILVER:1422"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_907c73a207cf16bf",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "f8aacc90582821ce7583c71e2f046e99a14af744dd5e4f26aec176793bcedfda",
+    "row_ids": [
+      "VI_SILVER:28",
+      "VI_SILVER:1423"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_49ec938d734285f4",
+    "ticker_raw_values": [
+      "VHM"
+    ],
+    "normalized_ticker": "VHM",
+    "normalized_content_sha256": "f4989d22038e88d719a00845f7d61893368751bc66fdc7eab5f62e65b99312c1",
+    "row_ids": [
+      "VI_SILVER:29",
+      "VI_SILVER:1424"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.8"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_4794518b82bff1c0",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "ea364aaf58c3eadb6214cd94ac893e12e81a03c8ebfa665137899322c3e15dea",
+    "row_ids": [
+      "VI_SILVER:30",
+      "VI_SILVER:1425"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_bc03b351c4c15a98",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "b024c001c84480fe69008e297d09376f39f6b3ab07d7ebe4b5f20e81bed171c6",
+    "row_ids": [
+      "VI_SILVER:31",
+      "VI_SILVER:1426"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.5"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_f2a1f802606c7de9",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "c55826d462e5bda51c2cae8f466484b11e5affd85dd8855aa290a8f9a6f4c4a6",
+    "row_ids": [
+      "VI_SILVER:32",
+      "VI_SILVER:1442"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_a55e58256bded39f",
+    "ticker_raw_values": [
+      "VJC"
+    ],
+    "normalized_ticker": "VJC",
+    "normalized_content_sha256": "c08bb160d92982dcf2c89b3f916efc25d5a74f03ae8580944f339be3b7965f95",
+    "row_ids": [
+      "VI_SILVER:33",
+      "VI_SILVER:1443"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.3",
+        "0.5"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_9bbed9cb53b8b3de",
+    "ticker_raw_values": [
+      "VJC"
+    ],
+    "normalized_ticker": "VJC",
+    "normalized_content_sha256": "cb6933e10a70ac146915590433126b6ee7be9afc5a5449e7ec724a51ab5f6c82",
+    "row_ids": [
+      "VI_SILVER:34",
+      "VI_SILVER:1444"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.2",
+        "0.3"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_7719fdfc60c4ac5f",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "3b444121bcc955372524cd4624d8b574a757c8fd122962cd775aa0e3c06aa1b0",
+    "row_ids": [
+      "VI_SILVER:35",
+      "VI_SILVER:1445"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7",
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_86f3f5ced1170eb7",
+    "ticker_raw_values": [
+      "VRE"
+    ],
+    "normalized_ticker": "VRE",
+    "normalized_content_sha256": "0fe8db77c1d9381b59a8944d489d15f284f433e4394ad3fbca4387d7c9c1e1b3",
+    "row_ids": [
+      "VI_SILVER:36",
+      "VI_SILVER:1446"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.7",
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "-0.5",
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_2148c399df037be0",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "1fdc43472ef55393dc9810500718a565b072723080aa49d5afd1bcd4b49aaa22",
+    "row_ids": [
+      "VI_SILVER:37",
+      "VI_SILVER:1447"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_5e1a6bf54a06c566",
+    "ticker_raw_values": [
+      "VRE"
+    ],
+    "normalized_ticker": "VRE",
+    "normalized_content_sha256": "76b04e797669fa4001485ea58944342511c53dfdfb53357f9eb0a98653dad36b",
+    "row_ids": [
+      "VI_SILVER:38",
+      "VI_SILVER:1448"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_506179c677c48280",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "9de85181bb6a59ed462f5549040c099e03273bc1585eabdc5caf4c6b736f9baa",
+    "row_ids": [
+      "VI_SILVER:39",
+      "VI_SILVER:1449"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6",
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_038f7179097ac28d",
+    "ticker_raw_values": [
+      "PLX"
+    ],
+    "normalized_ticker": "PLX",
+    "normalized_content_sha256": "4c2a63b2b6436b78b5ff8e8062f05841ab47926d927a5fd0efb6eab67ef04114",
+    "row_ids": [
+      "VI_SILVER:40",
+      "VI_SILVER:1450"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.3"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_a6c6a5cb0a30f3a0",
+    "ticker_raw_values": [
+      "SSI"
+    ],
+    "normalized_ticker": "SSI",
+    "normalized_content_sha256": "43977941e4560bccb6f6562a945f5765455b95c1174d247c84e236f30a24fd30",
+    "row_ids": [
+      "VI_SILVER:41",
+      "VI_SILVER:1451"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral",
+      "positive"
+    ],
+    "label_ids": [
+      "1",
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0",
+        "0.6"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0",
+        "0.7"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_295d2a993b958784",
+    "ticker_raw_values": [
+      "VHM"
+    ],
+    "normalized_ticker": "VHM",
+    "normalized_content_sha256": "37e694f56404056b17c4648dbd9538e4deabb3448f6fbb9fe9f80c6c8c707cbb",
+    "row_ids": [
+      "VI_SILVER:42",
+      "VI_SILVER:1452"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.7"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_61d03b2a1c994440",
+    "ticker_raw_values": [
+      "GAS"
+    ],
+    "normalized_ticker": "GAS",
+    "normalized_content_sha256": "6fb1d184b6b4b162cc181c350f40caf714f6350529fb5eaf91ad74e466bf18f7",
+    "row_ids": [
+      "VI_SILVER:43",
+      "VI_SILVER:1453"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_60e07c379286874a",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "49309a45140ab75d2c59611b55e370df576a0321f4aea16306679695c7317bb2",
+    "row_ids": [
+      "VI_SILVER:44",
+      "VI_SILVER:1454"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.5",
+        "0.6"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_bbde8b17f0950401",
+    "ticker_raw_values": [
+      "VCB"
+    ],
+    "normalized_ticker": "VCB",
+    "normalized_content_sha256": "77fed4b219554afbfd8fef9e987154aafab9972d066d24850cc1d9cf4672e92b",
+    "row_ids": [
+      "VI_SILVER:45",
+      "VI_SILVER:1455"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral",
+      "positive"
+    ],
+    "label_ids": [
+      "1",
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.2",
+        "0.7"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_b5f6ecb6b4e9c390",
+    "ticker_raw_values": [
+      "LPB"
+    ],
+    "normalized_ticker": "LPB",
+    "normalized_content_sha256": "34a0b1d8fcf7c1ce186b983d58754f2b5652f71d1464d4c49b5f7be6027b3901",
+    "row_ids": [
+      "VI_SILVER:46",
+      "VI_SILVER:1456"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral",
+      "positive"
+    ],
+    "label_ids": [
+      "1",
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0",
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0",
+        "0.7"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_1220d1f6fe98ceb9",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "53ec4972f43b45d60f2710cd15191b9d226e451f5d5767ec0314ee1cbf144f56",
+    "row_ids": [
+      "VI_SILVER:47",
+      "VI_SILVER:1457"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_46f8b9d3f52fb5b1",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "ca5f81373ebe9a8824370d02b88ed4536527994102894f452016c0120e237a22",
+    "row_ids": [
+      "VI_SILVER:48",
+      "VI_SILVER:1458"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.6"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.3"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_96d05ebbc090db65",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "097e9e1c06678f2d5a2d477ac92e6935a68e4903bb6fe28208bf6838c279f55a",
+    "row_ids": [
+      "VI_SILVER:49",
+      "VI_SILVER:1459"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.2"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_fb09fd12a17df28e",
+    "ticker_raw_values": [
+      "VHM"
+    ],
+    "normalized_ticker": "VHM",
+    "normalized_content_sha256": "58333a38c0117735bcbe24b8b325c8f33ae1fb5f070c2115569509c3b5ffa073",
+    "row_ids": [
+      "VI_SILVER:50",
+      "VI_SILVER:1460"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.5"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_3f2cd2ddf5eca9fe",
+    "ticker_raw_values": [
+      "VJC"
+    ],
+    "normalized_ticker": "VJC",
+    "normalized_content_sha256": "571bd36ebcc104919dc92052aca540103ec29994c66546a5a8cedc9e8de5c89f",
+    "row_ids": [
+      "VI_SILVER:51",
+      "VI_SILVER:1461"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "-0.3"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ef34171465df75eb",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "a6b799b02cd7a820b16995150bca8b34b78451863aa7364621eef6ef5cd98540",
+    "row_ids": [
+      "VI_SILVER:52",
+      "VI_SILVER:1462"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ff1686dfc038ad6d",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "52d25bf9e24832923a0a4c671cc88fe335004a33cbe49e0b626c03b2de9981ef",
+    "row_ids": [
+      "VI_SILVER:53",
+      "VI_SILVER:1463"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.4"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.1"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_af512e0b08736f72",
+    "ticker_raw_values": [
+      "PLX"
+    ],
+    "normalized_ticker": "PLX",
+    "normalized_content_sha256": "67d3ae19655a1d3f2d62f7384e2886f43cd3f14c91fe139aaf060f45f602d2ef",
+    "row_ids": [
+      "VI_SILVER:54",
+      "VI_SILVER:1464"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.3"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.4"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_01f78039d34b49a7",
+    "ticker_raw_values": [
+      "BCM"
+    ],
+    "normalized_ticker": "BCM",
+    "normalized_content_sha256": "6eb52b44bcb683cf0c1e2e46a2aa44845ede926e7becb932784fd21a18971c6e",
+    "row_ids": [
+      "VI_SILVER:55",
+      "VI_SILVER:951",
+      "VI_SILVER:1465"
+    ],
+    "row_count": 3,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7",
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.5",
+        "0.7"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_2340ef695dbcd49b",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "7b8e3576ea7d2af6576e5abbe91612ef8ae1a38ce56fb28f7bd49abe839b3d37",
+    "row_ids": [
+      "VI_SILVER:56",
+      "VI_SILVER:1466"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.4"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ca20734943f8b579",
+    "ticker_raw_values": [
+      "VNM"
+    ],
+    "normalized_ticker": "VNM",
+    "normalized_content_sha256": "ae9ef1c579edaaf27383a8829aa2e65436f852214d14894a20ecabfd49df00a7",
+    "row_ids": [
+      "VI_SILVER:57",
+      "VI_SILVER:671",
+      "VI_SILVER:1467"
+    ],
+    "row_count": 3,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_bf3403c3ec776a82",
+    "ticker_raw_values": [
+      "VNM"
+    ],
+    "normalized_ticker": "VNM",
+    "normalized_content_sha256": "9f0dafd8c481503ebaf5060d311f7fc573e1ae59d6df9f651b38db3f8f1a9596",
+    "row_ids": [
+      "VI_SILVER:58",
+      "VI_SILVER:1468"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.1"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ae1a2024facf9125",
+    "ticker_raw_values": [
+      "PLX"
+    ],
+    "normalized_ticker": "PLX",
+    "normalized_content_sha256": "b57a9f5431618f2ecfd3f490708fe63d9f44198c6bcd098f90d164de944d15e6",
+    "row_ids": [
+      "VI_SILVER:59",
+      "VI_SILVER:1469"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.6"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_6a0468ed97249803",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "4ac5382cffb9efa4b7d56c584441745a66237fcb3b094cface132557ec062a8b",
+    "row_ids": [
+      "VI_SILVER:60",
+      "VI_SILVER:1470"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_86a9397c9f36e37b",
+    "ticker_raw_values": [
+      "VJC"
+    ],
+    "normalized_ticker": "VJC",
+    "normalized_content_sha256": "2631d712d015cbc9cc21c84e042e664ad162e3ef4a682f1f9831221c1d18d13f",
+    "row_ids": [
+      "VI_SILVER:61",
+      "VI_SILVER:1471"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.5"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.6"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_7e9122d817b3ba70",
+    "ticker_raw_values": [
+      "PLX"
+    ],
+    "normalized_ticker": "PLX",
+    "normalized_content_sha256": "6d60a801655c5bfc28f4833a0daba8b14aab85057d0d9ff8e3c32e05fb6e503b",
+    "row_ids": [
+      "VI_SILVER:62",
+      "VI_SILVER:1472"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "-0.3"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_837c64b71fdb2dc5",
+    "ticker_raw_values": [
+      "PLX"
+    ],
+    "normalized_ticker": "PLX",
+    "normalized_content_sha256": "938fad40affd0fff4e919c2c8e743c698a34f0c93f010463d3a292b0bd952227",
+    "row_ids": [
+      "VI_SILVER:63",
+      "VI_SILVER:1473"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "-0.4"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "-0.6",
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_cc40bcb86a9297c1",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "ff120a93f428330d7984ee1fb6a6c48a6a534f41c7fcdcafc129626088b3b79f",
+    "row_ids": [
+      "VI_SILVER:64",
+      "VI_SILVER:1474"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.2"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_d9cb54b0a05f483e",
+    "ticker_raw_values": [
+      "VRE"
+    ],
+    "normalized_ticker": "VRE",
+    "normalized_content_sha256": "ceb711836d2583d82f89f1b25e16f5ea03a6f904849447b269b6ee9fa52964d1",
+    "row_ids": [
+      "VI_SILVER:65",
+      "VI_SILVER:1006",
+      "VI_SILVER:1475"
+    ],
+    "row_count": 3,
+    "distinct_full_row_hashes": 3,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.3",
+        "0.5",
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0",
+        "0.1"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "-0.3",
+        "-0.4",
+        "-0.5"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_3c2ed5ad0d1ec54f",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "48fcd6348a5d5ac24e740023a7d13651e8f0babcfbd55f764743c2b26767a056",
+    "row_ids": [
+      "VI_SILVER:66",
+      "VI_SILVER:1476"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.6",
+        "0.7"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ee0cc465a0441c95",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "af6a0b32d5ecb2db8c63350a1b7dc3d8cbee2d4a4510d08fb037f4087550b5cf",
+    "row_ids": [
+      "VI_SILVER:67",
+      "VI_SILVER:1477"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.3"
+      ],
+      "leadership_score": [
+        "0.4"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_bba7c7a2a15fee71",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "dc62c47bc9ca7e76d645d7e3878af6e94ff7134aaafb571258231e8641b9fabc",
+    "row_ids": [
+      "VI_SILVER:68",
+      "VI_SILVER:1478"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.1"
+      ],
+      "macro_score": [
+        "-0.2",
+        "0.2"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_db80a7218337a6be",
+    "ticker_raw_values": [
+      "VJC"
+    ],
+    "normalized_ticker": "VJC",
+    "normalized_content_sha256": "d624c935f2f0939684ee18c5fe1ac6f3611739f2fb0697d07590ab0add00e3d7",
+    "row_ids": [
+      "VI_SILVER:69",
+      "VI_SILVER:1479"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.3",
+        "0.4"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_1bdff8e394f4e864",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "dcec0ccec74df21e72b150393439a5c9938f0eca2d137a9fadc9cd1c32afeca9",
+    "row_ids": [
+      "VI_SILVER:70",
+      "VI_SILVER:1480"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ac624216b7444024",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "b31e0fc7e910c2a5816619c954cf79cadfe30d9135ad1120bbdae34291df166f",
+    "row_ids": [
+      "VI_SILVER:71",
+      "VI_SILVER:1481"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_be2c726e3dc7bae7",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "b03730fc78c5f4f544f3ba2eda03cff2fe5b6f6913d0ba128b73d1e2f55ddd5e",
+    "row_ids": [
+      "VI_SILVER:72",
+      "VI_SILVER:1482"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.1",
+        "0.2"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_c0c3a46650513d23",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "0107a68ebd40ad0f29a43844310fe14d9402eb9bcce44eff625c2864dd41b1f9",
+    "row_ids": [
+      "VI_SILVER:73",
+      "VI_SILVER:1483"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.3"
+      ],
+      "leadership_score": [
+        "0.2"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.4",
+        "0.5"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_a6c448173ca62660",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "fef6907c9586785be128755c33d0e6ddf4da17e14e54589dc17e49f092a3b51a",
+    "row_ids": [
+      "VI_SILVER:74",
+      "VI_SILVER:1484"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6"
+      ],
+      "leadership_score": [
+        "0.1",
+        "0.3"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_6fbac028dcb50267",
+    "ticker_raw_values": [
+      "VNM"
+    ],
+    "normalized_ticker": "VNM",
+    "normalized_content_sha256": "6552a463b38605d636b4d6f603142b247428837fd348ea2fdfe5443c07bcbea6",
+    "row_ids": [
+      "VI_SILVER:75",
+      "VI_SILVER:1485"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.2",
+        "0.3"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "-0.2"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_a76b9ff4a127c8ca",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "dadda5ac14b1779d588045c1fd4665593b41f5293b70c673b6439bc19de19355",
+    "row_ids": [
+      "VI_SILVER:76",
+      "VI_SILVER:931",
+      "VI_SILVER:1486"
+    ],
+    "row_count": 3,
+    "distinct_full_row_hashes": 3,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8",
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.5",
+        "0.6",
+        "0.7"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ed756b9f709760ee",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "3270e29dc8fb9c379a47e347d81a7e6012caf3dd09bea670d1d73e7b0f259e61",
+    "row_ids": [
+      "VI_SILVER:77",
+      "VI_SILVER:1487"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_7aaced556202a190",
+    "ticker_raw_values": [
+      "SAB"
+    ],
+    "normalized_ticker": "SAB",
+    "normalized_content_sha256": "28f59450f64f49fd492a64d6ab883164b5a8c0ea9eadd5bbf93f6282d8fef94f",
+    "row_ids": [
+      "VI_SILVER:78",
+      "VI_SILVER:1488"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.3"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_49984749867f5536",
+    "ticker_raw_values": [
+      "VJC"
+    ],
+    "normalized_ticker": "VJC",
+    "normalized_content_sha256": "5c2a3b673b1f3c273f61fc419655be7ebeb3b72ce09ac0591a9d9de80215a9dd",
+    "row_ids": [
+      "VI_SILVER:79",
+      "VI_SILVER:1489"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.3"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_e1047058ff62c052",
+    "ticker_raw_values": [
+      "VNM"
+    ],
+    "normalized_ticker": "VNM",
+    "normalized_content_sha256": "e93b81194eb076627483d963d237c0bf640982f80ba073ac2fe2aa18e5a6b1a2",
+    "row_ids": [
+      "VI_SILVER:80",
+      "VI_SILVER:1490"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "-0.2"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_74df5723b86a15ff",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "e92fb939d30472d908715b4039e2a5a8357997a1a945720d9e67c93a04c4d15c",
+    "row_ids": [
+      "VI_SILVER:81",
+      "VI_SILVER:1491"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.2"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_e3ee5bfff928daa4",
+    "ticker_raw_values": [
+      "LPB"
+    ],
+    "normalized_ticker": "LPB",
+    "normalized_content_sha256": "6122ea25909ec55bb66c74f6e3bdd8e5b66db9a84474e8413734c749f5575386",
+    "row_ids": [
+      "VI_SILVER:82",
+      "VI_SILVER:1492"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "-0.7"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_4d129c7ef866aae3",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "f179229dd773dd6a018911e350e7ea240b036c6c8d6bd0fb93617506c1baf6be",
+    "row_ids": [
+      "VI_SILVER:83",
+      "VI_SILVER:1493"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_0ffcf643212bcd50",
+    "ticker_raw_values": [
+      "VJC"
+    ],
+    "normalized_ticker": "VJC",
+    "normalized_content_sha256": "d899f12914c4e7e4526377bedb4927eee378c05bd0625974c5afdca1fa82bbeb",
+    "row_ids": [
+      "VI_SILVER:84",
+      "VI_SILVER:1494"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_1eb1549a985d3350",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "9ac518f42bdc0b10ce066969fd86f263b1e68ab0c8df3db802de3df6544a4605",
+    "row_ids": [
+      "VI_SILVER:85",
+      "VI_SILVER:1495"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_904ba8d360e45a9b",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "9bd4c147825924e92ea779e307b5fbb1d696fcd5f5baf54d39105d4d7a741a4f",
+    "row_ids": [
+      "VI_SILVER:86",
+      "VI_SILVER:1496"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6"
+      ],
+      "leadership_score": [
+        "0.5"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.4"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_14bdf63cd5c69c9b",
+    "ticker_raw_values": [
+      "VHM"
+    ],
+    "normalized_ticker": "VHM",
+    "normalized_content_sha256": "aa94500dcb257225f75a75f09bbfb82687207a4c482c721330ffa05ef25e5e31",
+    "row_ids": [
+      "VI_SILVER:87",
+      "VI_SILVER:1497"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_f68630c2aeaf53e3",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "1299a0da3341a425c7260d32fa3b5b6b679a542b006efc3805321b8bfccd9889",
+    "row_ids": [
+      "VI_SILVER:88",
+      "VI_SILVER:1498"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.5"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_d48bfab2d91185d2",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "ee4afb3ebfbbdae30b149b001d8d22a2378b978a0fece4fbe7d3b97185e89de1",
+    "row_ids": [
+      "VI_SILVER:89",
+      "VI_SILVER:1499"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.3"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_3b23e17461f30dda",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "2127c6b52b701172c752252c47f9e012cf821ab9bf070dddf0f5d2840f2f5c3b",
+    "row_ids": [
+      "VI_SILVER:90",
+      "VI_SILVER:1500"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_f9d90e317849af81",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "f08678818c8054233a6c78b418cfccc661405c6b7ba74bcd54f8978794cd864a",
+    "row_ids": [
+      "VI_SILVER:91",
+      "VI_SILVER:1501"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "-0.8"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_c453d07767c4acb1",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "c6bfc835bafaadaf18d4a5eea029bc6502ed9b00157facb4a72b7f51fa154101",
+    "row_ids": [
+      "VI_SILVER:92",
+      "VI_SILVER:1502"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.3"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.3"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_1de2cc5a31282816",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "49b261bcb6824b3412c19e2263607d67c56f2b3fd0d54c865f00fc91846d93aa",
+    "row_ids": [
+      "VI_SILVER:93",
+      "VI_SILVER:1503"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.2"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "-0.2"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_bb884fea0b5ab54c",
+    "ticker_raw_values": [
+      "GVR"
+    ],
+    "normalized_ticker": "GVR",
+    "normalized_content_sha256": "fc131ab75bd1bdd58f3a65db1fbade3cdd305233cc16184d77f31ddde405d5f7",
+    "row_ids": [
+      "VI_SILVER:94",
+      "VI_SILVER:1504"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6"
+      ],
+      "leadership_score": [
+        "0.7"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.4"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_b0a4d0dfcbb2ab77",
+    "ticker_raw_values": [
+      "GVR"
+    ],
+    "normalized_ticker": "GVR",
+    "normalized_content_sha256": "2aefbe2677c8420c331dd9cc89a37108f0ce48dbd1677859596366152116ba19",
+    "row_ids": [
+      "VI_SILVER:95",
+      "VI_SILVER:1505"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.5"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_622fdc3659ca503b",
+    "ticker_raw_values": [
+      "PLX"
+    ],
+    "normalized_ticker": "PLX",
+    "normalized_content_sha256": "de201baf7535d97ec04091ee9923be05dd7090d67efe4e7b85acdfdc03d6e3a6",
+    "row_ids": [
+      "VI_SILVER:96",
+      "VI_SILVER:1506"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.4"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_da06b2fd541cfe4f",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "5b72d62e7001e90cc607a4e9439c764120ff9aa4f3d9b144184c4affaa4225c7",
+    "row_ids": [
+      "VI_SILVER:97",
+      "VI_SILVER:1507"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.1"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_f8fed61d7b1f3c6b",
+    "ticker_raw_values": [
+      "SSI"
+    ],
+    "normalized_ticker": "SSI",
+    "normalized_content_sha256": "fa224fc4362654bb985ad309cd9f1df084df4b7099f37d258156f5a73a3bee58",
+    "row_ids": [
+      "VI_SILVER:98",
+      "VI_SILVER:581",
+      "VI_SILVER:1508"
+    ],
+    "row_count": 3,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "negative",
+      "neutral"
+    ],
+    "label_ids": [
+      "0",
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "-0.6",
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_6788dc8c6a3498ce",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "568ce6b64594cf11c8984bf11391d2aff912fde4bba773dc1aa7ca036d641d16",
+    "row_ids": [
+      "VI_SILVER:99",
+      "VI_SILVER:1509"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.7"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.8"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_11cff42b5f2a9cae",
+    "ticker_raw_values": [
+      "PLX"
+    ],
+    "normalized_ticker": "PLX",
+    "normalized_content_sha256": "f4f84485d918112064126e5c342d6ecd4dc1f3d01a1c8fe051b0396696364055",
+    "row_ids": [
+      "VI_SILVER:100",
+      "VI_SILVER:1510"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.1"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.5"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_bb3a9a7cfd0f8c57",
+    "ticker_raw_values": [
+      "VNM"
+    ],
+    "normalized_ticker": "VNM",
+    "normalized_content_sha256": "3bcba170cb1c5d2512502b0d8602cde57f4bd4b18dd8aed6edfec49e7677a504",
+    "row_ids": [
+      "VI_SILVER:101",
+      "VI_SILVER:1511"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_5f9c5b8c9a72c018",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "641b8bb454facb6e766920fd2a544c47bcabf7df13a115b38f976185a65065e7",
+    "row_ids": [
+      "VI_SILVER:102",
+      "VI_SILVER:1512"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_44bdb28a215756cd",
+    "ticker_raw_values": [
+      "VNM"
+    ],
+    "normalized_ticker": "VNM",
+    "normalized_content_sha256": "0f52e895ca6dff672e78ba284bcc17cc5c624a697cebe8fef1bcc347bdb4bbf5",
+    "row_ids": [
+      "VI_SILVER:103",
+      "VI_SILVER:886",
+      "VI_SILVER:1513"
+    ],
+    "row_count": 3,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.2",
+        "0.5"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_a626e43a9c734989",
+    "ticker_raw_values": [
+      "GAS"
+    ],
+    "normalized_ticker": "GAS",
+    "normalized_content_sha256": "d3199f7af9d248f1f04f3210dfa190456e930bc1afa2024a518ef22db9f28f00",
+    "row_ids": [
+      "VI_SILVER:104",
+      "VI_SILVER:1514"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_f5870f99f972c037",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "3fdd0e1f8d0cbf5937216a7e80efa7f27ab5c1786d2da38a995a7d0ce6f7a1f2",
+    "row_ids": [
+      "VI_SILVER:105",
+      "VI_SILVER:1515"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.1"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_cbce5955d10c34bd",
+    "ticker_raw_values": [
+      "GAS"
+    ],
+    "normalized_ticker": "GAS",
+    "normalized_content_sha256": "98051141f20fad77378cdd3de7647571af821f55bdef8f70604fa0956ad1c82a",
+    "row_ids": [
+      "VI_SILVER:106",
+      "VI_SILVER:1516"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_963ccb325af1447e",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "647716f744a622fabb91be76175766440afe8c14919a621e68a02664d5857d1a",
+    "row_ids": [
+      "VI_SILVER:107",
+      "VI_SILVER:1517"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_717a4c21872be0d6",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "543f6bdc95e2eeea5b2c75d7bf23f74a43273743d1a1278a93e2182b7ca19f4e",
+    "row_ids": [
+      "VI_SILVER:108",
+      "VI_SILVER:1518"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.3",
+        "0.5"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_28b56483b163e4f2",
+    "ticker_raw_values": [
+      "VHM"
+    ],
+    "normalized_ticker": "VHM",
+    "normalized_content_sha256": "02c03ca4ed0505c41951b6bb04e3f37a75fafe06128d4693d24edfaa82c45936",
+    "row_ids": [
+      "VI_SILVER:109",
+      "VI_SILVER:1519"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_7fd0b2e7231ac2eb",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "e4b3c167808ef5b6a59035bc335949430de10b24f5ab3252686b80680f9f87aa",
+    "row_ids": [
+      "VI_SILVER:110",
+      "VI_SILVER:1520"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral",
+      "positive"
+    ],
+    "label_ids": [
+      "1",
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.3"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.3"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_fa9023877e62d6af",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "69e6931ff4012e0e3dec2eb51d7d1336116294c03579e0c40c7b6fa7562166dc",
+    "row_ids": [
+      "VI_SILVER:111",
+      "VI_SILVER:1521"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_b86ab8fd69a2aa35",
+    "ticker_raw_values": [
+      "MBB"
+    ],
+    "normalized_ticker": "MBB",
+    "normalized_content_sha256": "85b04eec9c706b74fd590bc8d295217fdd4f0edf0d96f94ff3e09be5812de177",
+    "row_ids": [
+      "VI_SILVER:112",
+      "VI_SILVER:1522"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_e4370e6811b82f89",
+    "ticker_raw_values": [
+      "GAS"
+    ],
+    "normalized_ticker": "GAS",
+    "normalized_content_sha256": "bd2f30554bdbd0cbf7b3f1938f138b3dd8679241360666e35ca6407cae93d7ec",
+    "row_ids": [
+      "VI_SILVER:113",
+      "VI_SILVER:1523"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.6",
+        "0.7"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_b2dad290aeb7c910",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "097b208029ca0068e8ece2c0f732bd74998d57b76a25147f95eaf0f8c054c307",
+    "row_ids": [
+      "VI_SILVER:114",
+      "VI_SILVER:659",
+      "VI_SILVER:1524"
+    ],
+    "row_count": 3,
+    "distinct_full_row_hashes": 3,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7",
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_d6de3b8b4ae7119f",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "6f3ba3df8738f1fde7d8ac589a0c8059b4a46ba08bc6bf5ef7e6c71536401be3",
+    "row_ids": [
+      "VI_SILVER:115",
+      "VI_SILVER:1525"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.2",
+        "-0.3"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_9a8d68ab77431415",
+    "ticker_raw_values": [
+      "GAS"
+    ],
+    "normalized_ticker": "GAS",
+    "normalized_content_sha256": "67b04da1722f1100455d5040e240d0f2cbb8eb48e8f252439b7c3cc6c00e13cf",
+    "row_ids": [
+      "VI_SILVER:116",
+      "VI_SILVER:1526"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.7",
+        "0.8"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_8ffa46442ee1c418",
+    "ticker_raw_values": [
+      "BCM"
+    ],
+    "normalized_ticker": "BCM",
+    "normalized_content_sha256": "259da80827304ca609b7b695bc3ccd7bfa66e931546f8f646abc92cc39f285f4",
+    "row_ids": [
+      "VI_SILVER:117",
+      "VI_SILVER:1527"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.4"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_9a482b7b2eb6830b",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "8c41c059b499fabe63d997948b4472a312d81f56b5005b9a17b3ee9718b8645e",
+    "row_ids": [
+      "VI_SILVER:118",
+      "VI_SILVER:1528"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7",
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.5"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_c1bfdc7d9f6cc900",
+    "ticker_raw_values": [
+      "VRE"
+    ],
+    "normalized_ticker": "VRE",
+    "normalized_content_sha256": "d3520f6987f51db2b31c9430a5036513fa1d4adfcb4e2b357c2441fe7e2696dc",
+    "row_ids": [
+      "VI_SILVER:119",
+      "VI_SILVER:1529"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral",
+      "positive"
+    ],
+    "label_ids": [
+      "1",
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.4",
+        "0.5"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_9a387aea0f2c31c7",
+    "ticker_raw_values": [
+      "SSI"
+    ],
+    "normalized_ticker": "SSI",
+    "normalized_content_sha256": "83b606e3d9ab5c298a4fe9ff8c03f6e1ba528c2348e18a0aca933b8eb110c26d",
+    "row_ids": [
+      "VI_SILVER:120",
+      "VI_SILVER:745",
+      "VI_SILVER:1530"
+    ],
+    "row_count": 3,
+    "distinct_full_row_hashes": 3,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "negative",
+      "neutral"
+    ],
+    "label_ids": [
+      "0",
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.2",
+        "0.7",
+        "0.9"
+      ],
+      "leadership_score": [
+        "-0.6"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_0fb06b06e9429d91",
+    "ticker_raw_values": [
+      "GAS"
+    ],
+    "normalized_ticker": "GAS",
+    "normalized_content_sha256": "793f240b0c5d0422bb5364ece7244403d6a044078fedb569e38702710aa79cff",
+    "row_ids": [
+      "VI_SILVER:121",
+      "VI_SILVER:1531"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_43b907fbaa4ab233",
+    "ticker_raw_values": [
+      "GAS"
+    ],
+    "normalized_ticker": "GAS",
+    "normalized_content_sha256": "4b565bb649dff91fa0f509b19ac130ca4390300bd21d6acff4f8882cba7e243e",
+    "row_ids": [
+      "VI_SILVER:137",
+      "VI_SILVER:1532"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.2"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0",
+        "0.3"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_650e15d5b57b61bf",
+    "ticker_raw_values": [
+      "GVR"
+    ],
+    "normalized_ticker": "GVR",
+    "normalized_content_sha256": "2aa3bd23fe5b6a23d2bdc582ea093e4e421d39893557c5aa020c635c3fac0456",
+    "row_ids": [
+      "VI_SILVER:138",
+      "VI_SILVER:1533"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.3",
+        "-0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0",
+        "0.4"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ebecec327cbaaf4f",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "473ad28cafc6d2c5bcf09c5375e99caf4d8c97913db64832a1f2d541efd7c8ab",
+    "row_ids": [
+      "VI_SILVER:139",
+      "VI_SILVER:1534"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.7",
+        "-0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_68a2e6fdfedf3e50",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "0af3f2b14d998b66db5459981411fdc7a9437e06efa623e1d7f11cac71973295",
+    "row_ids": [
+      "VI_SILVER:140",
+      "VI_SILVER:1535"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8",
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.3"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_689e18e6bc2fea16",
+    "ticker_raw_values": [
+      "MBB"
+    ],
+    "normalized_ticker": "MBB",
+    "normalized_content_sha256": "24f79c64c85a67e19605fe4287d8a3da2fb8721e44b43e9d9c91488296f0936c",
+    "row_ids": [
+      "VI_SILVER:141",
+      "VI_SILVER:1536"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0",
+        "0.6"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ffa78ab8235e7c5e",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "b3de20e93c2c00278637e6b42e8536dd1dd15655c50055b79efd6a26a7763780",
+    "row_ids": [
+      "VI_SILVER:142",
+      "VI_SILVER:1537"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.4",
+        "0.5"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "-0.5",
+        "-0.6"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_c0d4c22089460055",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "531b35f7b059a9d41e5e3f5fb606df58f840effe045a1b9f46c507d45fdad7f3",
+    "row_ids": [
+      "VI_SILVER:143",
+      "VI_SILVER:1538"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.6",
+        "-0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_b09489544c7d4091",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "4bbece0b4c2fbce54f42ee10739c8fc855b3a01b937a86d743cb1a87e6516f28",
+    "row_ids": [
+      "VI_SILVER:144",
+      "VI_SILVER:1539"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7",
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_5baf839999b66212",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "f55cf0940feb94647b8c6732574fb30c02d4872fa245edb931414abf1ad9316d",
+    "row_ids": [
+      "VI_SILVER:145",
+      "VI_SILVER:1540"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0",
+        "0.2"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.5"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_d0e636307729c8f5",
+    "ticker_raw_values": [
+      "PLX"
+    ],
+    "normalized_ticker": "PLX",
+    "normalized_content_sha256": "debba04b5716ade7d858fa14d917d1914ea62d331b34cb9958af2d20653eb4d7",
+    "row_ids": [
+      "VI_SILVER:146",
+      "VI_SILVER:1541"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.5",
+        "0.6"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ee2b0c5fe1f77de4",
+    "ticker_raw_values": [
+      "GAS"
+    ],
+    "normalized_ticker": "GAS",
+    "normalized_content_sha256": "f251293dae46437e898ebdf89de7efa277ac45df273aa348728c0743c967a631",
+    "row_ids": [
+      "VI_SILVER:147",
+      "VI_SILVER:1542"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral",
+      "positive"
+    ],
+    "label_ids": [
+      "1",
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.1",
+        "0.3"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.8"
+      ],
+      "capital_score": [
+        "-0.4",
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_b7998a2787cc1c33",
+    "ticker_raw_values": [
+      "VHM"
+    ],
+    "normalized_ticker": "VHM",
+    "normalized_content_sha256": "0f941e465fac0e110de9f6ca16304c7c99921fab88af1c9c97ebb04efd27e58e",
+    "row_ids": [
+      "VI_SILVER:148",
+      "VI_SILVER:684",
+      "VI_SILVER:1543"
+    ],
+    "row_count": 3,
+    "distinct_full_row_hashes": 3,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.4",
+        "0.6"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_e7231866ff6702bf",
+    "ticker_raw_values": [
+      "ACB"
+    ],
+    "normalized_ticker": "ACB",
+    "normalized_content_sha256": "5580da84012fc162d97052827581e183d6e5eabae7460b0efaadad0e12f27c0b",
+    "row_ids": [
+      "VI_SILVER:149",
+      "VI_SILVER:1544"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.1",
+        "0.2"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0",
+        "0.2"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_22eac06563c7c87f",
+    "ticker_raw_values": [
+      "VHM"
+    ],
+    "normalized_ticker": "VHM",
+    "normalized_content_sha256": "ed395b6465c15e63a39b134f3e5af7c5feb2754e9a772a9bb1c42e2fdc3c4363",
+    "row_ids": [
+      "VI_SILVER:150",
+      "VI_SILVER:1545"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_14aa2e56ea407c23",
+    "ticker_raw_values": [
+      "PLX"
+    ],
+    "normalized_ticker": "PLX",
+    "normalized_content_sha256": "4f444248aa2fac9d415e7c015cc2686ca29d7cd34ca48f75d1963d76dde13134",
+    "row_ids": [
+      "VI_SILVER:151",
+      "VI_SILVER:1546"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_88f1b7209ecc3b54",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "eee3800509af16375cd14517fb1eab81bbf0444af07c01bed65bf9d533134692",
+    "row_ids": [
+      "VI_SILVER:158",
+      "VI_SILVER:1010"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.5",
+        "0.6"
+      ],
+      "leadership_score": [
+        "0.3",
+        "0.5"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.6"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_fb4401b8c245058b",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "d65a37f53299c336848cbc5bafc36aa76632b66e9f69240c5731f127db06c21a",
+    "row_ids": [
+      "VI_SILVER:164",
+      "VI_SILVER:948"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.4",
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_1cfe80ce9b6b61da",
+    "ticker_raw_values": [
+      "GAS"
+    ],
+    "normalized_ticker": "GAS",
+    "normalized_content_sha256": "8435962ef2b838357c6f2b007962e32177803e1388e840f68c6bc83a2cb8bba7",
+    "row_ids": [
+      "VI_SILVER:167",
+      "VI_SILVER:968"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.2",
+        "-0.3"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "-0.1",
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_e882cd121cc35e92",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "a009009ea52eb8bc41282d60cfdb3e14e989ebbd672037c25c97aa8683de0df2",
+    "row_ids": [
+      "VI_SILVER:177",
+      "VI_SILVER:658"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.5",
+        "0.6"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_f32d3c46892722fc",
+    "ticker_raw_values": [
+      "PLX"
+    ],
+    "normalized_ticker": "PLX",
+    "normalized_content_sha256": "23060884ac00136a306451ff23b39645492b4e722c09ce1a7d1d78fa4b33de19",
+    "row_ids": [
+      "VI_SILVER:183",
+      "VI_SILVER:964"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_d000fc83295901cb",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "a6e9a9daa50cb8034f1d77a9a8c5e50eb2597cb59c41a98c18ea983813a8c865",
+    "row_ids": [
+      "VI_SILVER:185",
+      "VI_SILVER:1007"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7",
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_eeec7eea984bc71a",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "4754e8e80313bef20b1dbe946010c813f2f5a48da2656a69687dc87d9389c524",
+    "row_ids": [
+      "VI_SILVER:195",
+      "VI_SILVER:920"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8",
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_abfd5b053d05879d",
+    "ticker_raw_values": [
+      "BCM"
+    ],
+    "normalized_ticker": "BCM",
+    "normalized_content_sha256": "58b33bcf95e7eded21ca138608794885c8ee556c1895b33dc20f8d97d023a2a0",
+    "row_ids": [
+      "VI_SILVER:203",
+      "VI_SILVER:737"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.3",
+        "0.5"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_c8661f6eae6bb211",
+    "ticker_raw_values": [
+      "PLX"
+    ],
+    "normalized_ticker": "PLX",
+    "normalized_content_sha256": "36de631df3f374efbdb8ef7f6e5b275d586c8e1fe10612535f913f8f37813229",
+    "row_ids": [
+      "VI_SILVER:204",
+      "VI_SILVER:676"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.6",
+        "0.7"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_4a3945a37bab7f03",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "5e491e28aeeaf7ece8eb9993b942013e988b6239f83c1bc0cf047fff3e84df3c",
+    "row_ids": [
+      "VI_SILVER:212",
+      "VI_SILVER:603"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7",
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.7",
+        "0.8"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_83807cbda8ee8341",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "4869c5c74484399db95e9251099ea87a08b0804e18ee15a3abc965191637e9f6",
+    "row_ids": [
+      "VI_SILVER:219",
+      "VI_SILVER:932"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.8"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_720873dd436db731",
+    "ticker_raw_values": [
+      "SAB"
+    ],
+    "normalized_ticker": "SAB",
+    "normalized_content_sha256": "ec0d1f26b30a4e88fd65ca873a75fd751d96ac24982fe8108628a829fa208cca",
+    "row_ids": [
+      "VI_SILVER:234",
+      "VI_SILVER:661"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.5",
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.4",
+        "0.6"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_2d6e3eef7d72f6f4",
+    "ticker_raw_values": [
+      "VNM"
+    ],
+    "normalized_ticker": "VNM",
+    "normalized_content_sha256": "6129ee25d49087cf8c4099f83c827ad636df75f2516088e267299bb395a3416d",
+    "row_ids": [
+      "VI_SILVER:259",
+      "VI_SILVER:568"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_f719346c27192ca4",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "0dd86f917bfa28c8f7b7205417fcf9a8256e7dfccf1027f73dce3b513a42fee1",
+    "row_ids": [
+      "VI_SILVER:264",
+      "VI_SILVER:881"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0",
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.7",
+        "0.9"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_5b4120a2e15121d7",
+    "ticker_raw_values": [
+      "GAS"
+    ],
+    "normalized_ticker": "GAS",
+    "normalized_content_sha256": "424e837e7e7d9e4ca0609989200d80dfee6dd1215abfeafa3a010d4cfec65da2",
+    "row_ids": [
+      "VI_SILVER:273",
+      "VI_SILVER:629"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7",
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ebba6a5c88c19ebd",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "7c1cfc35b9439b74525a9e77f97fc061dd5befde76636d2f7f3259dd03b8ae80",
+    "row_ids": [
+      "VI_SILVER:284",
+      "VI_SILVER:953"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8",
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0",
+        "0.3"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_393b2ffd53ce2c8b",
+    "ticker_raw_values": [
+      "VHM"
+    ],
+    "normalized_ticker": "VHM",
+    "normalized_content_sha256": "e602e45dc4fd90dcd6158724d270501b7a9f47285f1d4efcd58dec44ecfb6951",
+    "row_ids": [
+      "VI_SILVER:286",
+      "VI_SILVER:831"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_1d404a52556d0e25",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "88e89789db2ff2073b0e86cc901004f49ec6c070933365ad2841a9c917555007",
+    "row_ids": [
+      "VI_SILVER:291",
+      "VI_SILVER:817"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8",
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_70ec1aa1780776d5",
+    "ticker_raw_values": [
+      "VNM"
+    ],
+    "normalized_ticker": "VNM",
+    "normalized_content_sha256": "e26fd8b9e765c3f884c85b8e1ed38fbcf74437b1e5f0d208301657d69a437a68",
+    "row_ids": [
+      "VI_SILVER:297",
+      "VI_SILVER:829"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "negative",
+      "neutral"
+    ],
+    "label_ids": [
+      "0",
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "-0.2",
+        "-0.3"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ed0e782cfb04a68b",
+    "ticker_raw_values": [
+      "VNM"
+    ],
+    "normalized_ticker": "VNM",
+    "normalized_content_sha256": "fc406bdace45630a3573c8256b835eb3af98dd3a5915b0161597691a92db6182",
+    "row_ids": [
+      "VI_SILVER:301",
+      "VI_SILVER:926"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.8",
+        "-0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "-0.7",
+        "-0.8"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_cf9030877f41bdea",
+    "ticker_raw_values": [
+      "VHM"
+    ],
+    "normalized_ticker": "VHM",
+    "normalized_content_sha256": "aba0b8302bb3cd574c3297ff0e4321a7d2c23782bd7b867d3763656ed8d7d822",
+    "row_ids": [
+      "VI_SILVER:302",
+      "VI_SILVER:587"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_0acdebf1158e6a06",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "fe9b89aa2bf050e3f20b16b5cdbf078a2b4bc9d768f607f5b58e3b3d7760cc67",
+    "row_ids": [
+      "VI_SILVER:310",
+      "VI_SILVER:548"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.7",
+        "0.8"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_fb35ff07a99c2d3d",
+    "ticker_raw_values": [
+      "LPB"
+    ],
+    "normalized_ticker": "LPB",
+    "normalized_content_sha256": "c59c3344b0e742ddee3e11beedf1cb2bdf5f23fac04ace0583e7a944ce166cae",
+    "row_ids": [
+      "VI_SILVER:311",
+      "VI_SILVER:895"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.7"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_941f9819cbcf2799",
+    "ticker_raw_values": [
+      "MSN"
+    ],
+    "normalized_ticker": "MSN",
+    "normalized_content_sha256": "08783ad70083ba8e05965c2fa9c636399e6add975a3521a2aadf118d38dbe561",
+    "row_ids": [
+      "VI_SILVER:329",
+      "VI_SILVER:887"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.6",
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_a10c2f67b3e9e749",
+    "ticker_raw_values": [
+      "TCB"
+    ],
+    "normalized_ticker": "TCB",
+    "normalized_content_sha256": "5b1f7b7d07db341db144d9a3232ad94aacb2cc70b3b5acc9c3f3deee46ff841e",
+    "row_ids": [
+      "VI_SILVER:336",
+      "VI_SILVER:582"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ce577bc4b315b8c5",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "96f8af9d533c639a216ebc3cfd1e4c797a20b6f6aea7e4da6dc960d0cf724fb6",
+    "row_ids": [
+      "VI_SILVER:352",
+      "VI_SILVER:821"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral",
+      "positive"
+    ],
+    "label_ids": [
+      "1",
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.5",
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0",
+        "0.3"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "-0.3",
+        "0.6"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_1f90ede724089a4d",
+    "ticker_raw_values": [
+      "GAS"
+    ],
+    "normalized_ticker": "GAS",
+    "normalized_content_sha256": "768bd1646023c414100475dc9971e2a22c5f32b54d95e0f20fbc9014c57694c3",
+    "row_ids": [
+      "VI_SILVER:357",
+      "VI_SILVER:589"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_2ff49a3b8ab75587",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "3e2605ed26c8d906b96b4cce770466c07e3e1480dc89a47e54c4879c9cf2508d",
+    "row_ids": [
+      "VI_SILVER:379",
+      "VI_SILVER:598"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.5",
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_27c0707831d5f484",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "1b008959af76d6f038dab76672537a5ff1ed77b2dcf06a96f40b9628ce64aa3c",
+    "row_ids": [
+      "VI_SILVER:382",
+      "VI_SILVER:600"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_c219dccdfd1554b7",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "348ded9ebfafd63cd5e643defabf87d02e8d90c9f09474616343a8447b51d729",
+    "row_ids": [
+      "VI_SILVER:412",
+      "VI_SILVER:634"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.5",
+        "0.7"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.6",
+        "0.8"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_73d45ca368899bc2",
+    "ticker_raw_values": [
+      "GVR"
+    ],
+    "normalized_ticker": "GVR",
+    "normalized_content_sha256": "37e20af2bcdcdb6f72b1478393d9d2598b91ff2a52ab18020a60da30728b0c5e",
+    "row_ids": [
+      "VI_SILVER:426",
+      "VI_SILVER:778"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8",
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.5"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_910d2f01d5cb7968",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "54c2829d949a6b2653cc0650b2fc06e9f62a8bcb9bce54f300a8d9c68f2ae6a1",
+    "row_ids": [
+      "VI_SILVER:439",
+      "VI_SILVER:806"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.6",
+        "-0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "-0.5",
+        "-0.7"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_33679cf9a3a28437",
+    "ticker_raw_values": [
+      "VNM"
+    ],
+    "normalized_ticker": "VNM",
+    "normalized_content_sha256": "a4e95a9648b19123089bc62072be7c5113851ffef006293fa1cfb0bcd3c94634",
+    "row_ids": [
+      "VI_SILVER:440",
+      "VI_SILVER:713"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0",
+        "0.3"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0",
+        "0.3"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0",
+        "0.6"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_7263ec1eb542285e",
+    "ticker_raw_values": [
+      "VJC"
+    ],
+    "normalized_ticker": "VJC",
+    "normalized_content_sha256": "2831bf2b93d532b3256411a922afc699b402eff6830803734a3b3e825d0ae5ff",
+    "row_ids": [
+      "VI_SILVER:443",
+      "VI_SILVER:672"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral",
+      "positive"
+    ],
+    "label_ids": [
+      "1",
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.6",
+        "0.7"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_5c2fc130162ec26c",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "041503c12b4ab1d1b8867d406fa7a4d44a858845a87c22f6374e1af45d058d97",
+    "row_ids": [
+      "VI_SILVER:446",
+      "VI_SILVER:989"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.7",
+        "-0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "-0.5",
+        "-0.6"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_cf850522c54291e0",
+    "ticker_raw_values": [
+      "BCM"
+    ],
+    "normalized_ticker": "BCM",
+    "normalized_content_sha256": "6be7ddcee4e1b4f0e412025794646826f53b27cda47068b01015f0a991113e2b",
+    "row_ids": [
+      "VI_SILVER:454",
+      "VI_SILVER:553"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_a080de05a9c4f5f0",
+    "ticker_raw_values": [
+      "MWG"
+    ],
+    "normalized_ticker": "MWG",
+    "normalized_content_sha256": "4629f54cc152a1dbfa6f20690238e7d75e3df65da5773a1043901628c8b63982",
+    "row_ids": [
+      "VI_SILVER:459",
+      "VI_SILVER:689"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.7",
+        "-0.8"
+      ],
+      "leadership_score": [
+        "0.1"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_28be00ff62e59e1f",
+    "ticker_raw_values": [
+      "VJC"
+    ],
+    "normalized_ticker": "VJC",
+    "normalized_content_sha256": "0f9a2f0a7c98a5d96dc3ba7299d821d97c33ba52287371c109006f55bfb03294",
+    "row_ids": [
+      "VI_SILVER:474",
+      "VI_SILVER:787"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral",
+      "positive"
+    ],
+    "label_ids": [
+      "1",
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.3",
+        "0.5"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_8e5b055d91d70392",
+    "ticker_raw_values": [
+      "GAS"
+    ],
+    "normalized_ticker": "GAS",
+    "normalized_content_sha256": "3afeb85fc6ffaa31ca096babf02b8efc047fd8932fab1f1f07055539632fae9f",
+    "row_ids": [
+      "VI_SILVER:480",
+      "VI_SILVER:734"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.7"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.7"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_ba7c9969ac068741",
+    "ticker_raw_values": [
+      "FPT"
+    ],
+    "normalized_ticker": "FPT",
+    "normalized_content_sha256": "fc4cfc60a3bba53f55e99ca029a999338870b611e1e5586dbba964bb6c8b5143",
+    "row_ids": [
+      "VI_SILVER:493",
+      "VI_SILVER:917"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.8"
+      ],
+      "leadership_score": [
+        "0.5",
+        "0.7"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0",
+        "0.5"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_3f7f7d4ae32a62ed",
+    "ticker_raw_values": [
+      "VHM"
+    ],
+    "normalized_ticker": "VHM",
+    "normalized_content_sha256": "b0c3bd572c33333f3cd52412eb36230ccca6ff3db2d61b394fcf51a8371efd0a",
+    "row_ids": [
+      "VI_SILVER:514",
+      "VI_SILVER:982"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.9"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_8ba516b6e8d0b4d5",
+    "ticker_raw_values": [
+      "VIC"
+    ],
+    "normalized_ticker": "VIC",
+    "normalized_content_sha256": "6115875a86209402d45edf70b6a7c68ae571c226d18a5b91346333d705f3da47",
+    "row_ids": [
+      "VI_SILVER:524",
+      "VI_SILVER:673"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "neutral",
+      "positive"
+    ],
+    "label_ids": [
+      "1",
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.5"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_6d4f68c541332185",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "6612dd8d0578d045c3ec1a7eb7d893d9ad4db5dae223f963dbd9f75ee168c78a",
+    "row_ids": [
+      "VI_SILVER:532",
+      "VI_SILVER:623"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": false,
+    "overall_labels": [
+      "positive"
+    ],
+    "label_ids": [
+      "2"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.3",
+        "0.6"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_cff6cbd8c028ca7d",
+    "ticker_raw_values": [
+      "STB"
+    ],
+    "normalized_ticker": "STB",
+    "normalized_content_sha256": "002f2b1afb10b339fa3efa41b7d5f66af82ab252a5e4219089db3277e1b77998",
+    "row_ids": [
+      "VI_SILVER:1343",
+      "VI_SILVER:1344"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.1"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_43296f08bbec1364",
+    "ticker_raw_values": [
+      "TCB"
+    ],
+    "normalized_ticker": "TCB",
+    "normalized_content_sha256": "466688334a7769f37d32e41d0b9b85c1018bc7d1727345727ca57c88363da4cb",
+    "row_ids": [
+      "VI_SILVER:1371",
+      "VI_SILVER:1372"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.3"
+      ],
+      "leadership_score": [
+        "0.1"
+      ],
+      "macro_score": [
+        "0.1"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_2d8dcf506d2b8708",
+    "ticker_raw_values": [
+      "VJC"
+    ],
+    "normalized_ticker": "VJC",
+    "normalized_content_sha256": "6655fe5eb27d7f1585fc0da4847493cc502ef0bc7979c75845ec962f4e4fd474",
+    "row_ids": [
+      "VI_SILVER:1603",
+      "VI_SILVER:1604",
+      "VI_SILVER:1605",
+      "VI_SILVER:1606",
+      "VI_SILVER:1617"
+    ],
+    "row_count": 5,
+    "distinct_full_row_hashes": 2,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "neutral"
+    ],
+    "label_ids": [
+      "1"
+    ],
+    "score_values": {
+      "business_score": [
+        "0.0"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  },
+  {
+    "group_id": "dup_c745c4728249c86d",
+    "ticker_raw_values": [
+      "HPG"
+    ],
+    "normalized_ticker": "HPG",
+    "normalized_content_sha256": "9910708c75a269dae481f96eb3801a1139a5a3eb0b5b9af0a85b067ac67646f3",
+    "row_ids": [
+      "VI_SILVER:1624",
+      "VI_SILVER:1625"
+    ],
+    "row_count": 2,
+    "distinct_full_row_hashes": 1,
+    "identical_label_and_scores": true,
+    "overall_labels": [
+      "negative"
+    ],
+    "label_ids": [
+      "0"
+    ],
+    "score_values": {
+      "business_score": [
+        "-0.6"
+      ],
+      "leadership_score": [
+        "0.0"
+      ],
+      "macro_score": [
+        "0.0"
+      ],
+      "capital_score": [
+        "0.0"
+      ],
+      "esg_score": [
+        "0.0"
+      ]
+    },
+    "status": "exact_text_duplicate_rows_preserved"
+  }
+]
