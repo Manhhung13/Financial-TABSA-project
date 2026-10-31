@@ -33,7 +33,8 @@ Use `article_pool_to_verify.csv` to read the source text. `ticker_candidate` may
 - Do an initial 50-100 article-target pilot.
 - Prefer two independent annotators for at least a subset; adjudicate disagreement.
 - Protect validation/test from near-duplicates and translations in training or DAPT.
-- Preserve timestamps/source URLs where available, otherwise document this limitation.
+- Preserve timestamps/source URLs where available; timestamps are optional and must never be invented.
+- For the Vietnamese NLP Gold benchmark, divide **verified article/document-family/event groups**, not individual aspect rows, into deterministic train/val/test splits (ADR-0004). Missing publication dates alone do not block the split. Unresolved event/near-duplicate links require review or exclusion.
 
 ## File workflow
 - `article_pool_to_verify.csv` holds context and metadata for manual review.

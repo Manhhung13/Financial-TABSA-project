@@ -14,12 +14,12 @@
 ```json
 {"sample_id":"articleA:HPG:legal_esg","article_id":"articleA","event_cluster_id":"event42","source":"cafef","source_url":null,"published_at":null,"first_seen_at":null,"ticker":"HPG","company_name":null,"context":"Example context","aspect":"legal_esg","aspect_present":true,"sentiment":"negative","evidence":"Example evidence","annotation_status":"verified","annotator_id":"ann01","label_origin":"human","dataset_version":"gold-v1","split":"train"}
 ```
-Unknown timestamps remain NULL; never fabricate dates. Use `sentiment=null` when absent/needs_review. Only `verified` samples qualify for Gold metrics.
+Unknown timestamps remain NULL; never fabricate dates. Publication dates are **not required** for Gold train/validation/test splits (ADR-0004). Use `sentiment=null` when absent/needs_review. Only `verified` samples qualify for Gold metrics.
 
 ## Mandatory validation
 - Required columns, nonempty context/ticker/aspect (when applicable), known aspect keys, known sentiment labels.
 - Unique canonical sample IDs; preserve source original rows, hashes, URL, dataset revision and license metadata.
-- Dedup exact + near duplicate/event cluster; split by article/event BEFORE expansion into five aspects; remove overlaps with eval/test from all adaptation corpora.
+- Dedup exact + near duplicate/document-family/event cluster; split by **verified article/event group, not time**, BEFORE expansion into five aspects. Record seed, group IDs and frozen membership; remove overlaps with eval/test from all adaptation corpora. Do not use a text hash alone as proof of event uniqueness.
 - Any automatic label correction saved as new derived dataset version with provenance, not mutating original.
 - No numeric aspect score mapped to label without reviewed schema/rules; 0.0 ambiguous.
 - Gold test stays inaccessible for preprocessing/hyperparameter decisions except final locked evaluation.

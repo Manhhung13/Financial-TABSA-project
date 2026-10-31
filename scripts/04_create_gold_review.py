@@ -1,4 +1,9 @@
-"""Step 4: Create BLANK human-annotation templates; never auto-generate Gold labels."""
+"""Step 4: Create BLANK human-annotation templates; never auto-generate Gold labels.
+
+Publication timestamps are OPTIONAL for the eventual group-safe Gold split.
+The emitted group_id is a provisional text hash, not an adjudicated event cluster.
+This script does NOT perform a Gold train/val/test split or pass T-003B gates.
+"""
 from __future__ import annotations
 
 import argparse
@@ -112,6 +117,8 @@ def main() -> None:
     print('Article pool:', source_pool, 'items:', len(df))
     print('Blank annotation template:', path, 'rows:', len(template))
     print('STEP 4 OK: this is NOT yet a Gold dataset.')
+    print('published_at is OPTIONAL for Gold; group_id is only a provisional text hash.')
+    print('Verify source rights, company identity and event grouping before grouped split/seal.')
     print('Annotate aspect_present as yes/no; sentiment as negative/neutral/positive only if yes.')
     print('Use article_pool_to_verify.csv to verify the original source and find evidence.')
     print('Uncertain, mixed, unclear ticker -> annotation_status=needs_review; do not force a label.')
