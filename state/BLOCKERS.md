@@ -1,4 +1,5 @@
 # Open blockers / assumptions
+- T-003A update (2026-10-27): design artifacts and synthetic structural checks complete; this clears no data-use or Gold-seal blocker. T-003B remains BLOCKED by source-scoped R1 (BLK-014/022/023), target-scoped R2 (BLK-015/025/026), R3 grouping (BLK-016/027), conditional Silver R4 (BLK-019/029) and automation runtime R5 (BLK-020/030). No actual Gold or sealed test exists; BLK-002/006 remain open.
 - BLK-001: Verify actual repository file layout; governance pack not automatically reconciled with `D:\financial-tabsa` code.
 - BLK-002: No human Gold test has been shown; LLM Silver cannot substitute for evaluation.
 - BLK-003: Check true Thai label shape and exact 16-class mapping before Stage C.

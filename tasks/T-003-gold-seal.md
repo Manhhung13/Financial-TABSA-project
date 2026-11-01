@@ -1,5 +1,5 @@
 # T-003: Gold Seal
-Status: TODO
+Status: T-003A DONE (design only, 2026-10-27); T-003B BLOCKED; overall Gold seal acceptance unmet
 Owner: data_worker
 Depends on: T-002 (T-003A design); T-012 R1-R3 PASS (T-003B annotation-data execution/seal)
 Context (read ONLY): docs/DOMAIN_RULES.md;docs/DATA_CONTRACT.md;docs/ADR/ADR-0004-grouped-nontemporal-gold-splits.md
@@ -21,6 +21,13 @@ Verified Gold schema and human labels; immutable grouped, non-temporal train/val
 
 ## Minimum validation
 python -m pytest tests/test_gold_split.py -q (if created)
+
+## T-003A design evidence (2026-10-27)
+- Protocol: docs/GOLD_PILOT_PROTOCOL.md; structural rules: docs/GOLD_RECORD.schema.json.
+- Invented fixtures only: docs/GOLD_SYNTHETIC_EXAMPLES.json (10 records; quarantine-only).
+- Conda base Python 3.13.12 + existing jsonschema: Draft 2020-12 self-check PASS; 10 valid fixtures and 19 invalid mutations checked; fixture hashes/IDs/quotes/isolation PASS.
+- No split validator created or run; no actual source rows inspected, queue generated, labels collected or test sealed.
+- T-003B requires scoped R1/R2/R3 PASS, conditional Silver R4 and automation R5 PASS; see state/BLOCKERS.md. Do not advance to T-004 from design completion.
 
 ## Stop conditions
 Missing actual source files, unverified label meaning, Gold test exposure, incompatible adapter, or unapproved expensive GPU training. Record in state/BLOCKERS.md.

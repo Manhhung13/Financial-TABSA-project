@@ -1,0 +1,411 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:financial-tabsa:gold-record:v1",
+  "title": "Gold Pilot record v1 (design)",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "sample_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "article_id": {
+      "type": "string",
+      "pattern": "^[^:\\s]+$"
+    },
+    "event_cluster_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "source_revision": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "source_row_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "license_ref": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "ticker": {
+      "type": "string",
+      "pattern": "^[^:\\s]+$"
+    },
+    "company_name": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "identity_ref": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "target_evidence": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "context": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "annotator_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "guideline_version": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "dataset_version": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "source_url": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uri"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "article_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "published_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "first_seen_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "aspect": {
+      "enum": [
+        "business_financials",
+        "leadership_insider",
+        "macro_policy",
+        "capital_structure",
+        "legal_esg"
+      ]
+    },
+    "aspect_present": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "sentiment": {
+      "enum": [
+        "positive",
+        "negative",
+        "neutral",
+        null
+      ]
+    },
+    "evidence": {
+      "type": "string"
+    },
+    "annotation_status": {
+      "enum": [
+        "pending",
+        "needs_review",
+        "verified"
+      ]
+    },
+    "review_reason": {
+      "type": "string"
+    },
+    "label_origin": {
+      "const": "human"
+    },
+    "is_synthetic": {
+      "type": "boolean"
+    },
+    "split": {
+      "enum": [
+        "train",
+        "val",
+        "test",
+        "quarantine"
+      ]
+    },
+    "review_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "\\S"
+      },
+      "maxItems": 2,
+      "uniqueItems": true
+    },
+    "adjudication_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "sample_id",
+    "article_id",
+    "event_cluster_id",
+    "source",
+    "source_revision",
+    "source_row_id",
+    "license_ref",
+    "ticker",
+    "company_name",
+    "identity_ref",
+    "target_evidence",
+    "context",
+    "annotator_id",
+    "guideline_version",
+    "dataset_version",
+    "source_url",
+    "article_sha256",
+    "published_at",
+    "first_seen_at",
+    "aspect",
+    "aspect_present",
+    "sentiment",
+    "evidence",
+    "annotation_status",
+    "review_reason",
+    "label_origin",
+    "is_synthetic",
+    "split",
+    "review_ids",
+    "adjudication_id"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "aspect_present": {
+            "const": false
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "sentiment": {
+            "type": "null"
+          },
+          "evidence": {
+            "const": ""
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "aspect_present": {
+            "const": true
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "evidence": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "aspect_present": {
+            "type": "null"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "sentiment": {
+            "type": "null"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "annotation_status": {
+            "const": "needs_review"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "review_reason": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "annotation_status": {
+            "enum": [
+              "pending",
+              "needs_review"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "sentiment": {
+            "type": "null"
+          },
+          "split": {
+            "const": "quarantine"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "annotation_status": {
+            "const": "verified"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "aspect_present": {
+            "type": "boolean"
+          },
+          "review_reason": {
+            "const": ""
+          },
+          "review_ids": {
+            "minItems": 2
+          },
+          "adjudication_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "aspect_present": {
+                  "const": true
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "sentiment": {
+                  "enum": [
+                    "positive",
+                    "negative",
+                    "neutral"
+                  ]
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "is_synthetic": {
+            "const": true
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "split": {
+            "const": "quarantine"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "split": {
+            "enum": [
+              "train",
+              "val",
+              "test"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "annotation_status": {
+            "const": "verified"
+          },
+          "is_synthetic": {
+            "const": false
+          }
+        }
+      }
+    }
+  ]
+}

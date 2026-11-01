@@ -1,9 +1,12 @@
-T-003 Gold NLP split policy changed on 2026-10-31 at owner's request.
-ADR-0004: dates OPTIONAL; deterministic frozen split by VERIFIED article/document-family/event groups, not time.
-ADR-0003 historical and superseded; downstream task/data/research/SOP/docs aligned.
-T-003B NOT started: R1 rights, R2 row-level target identity and R3 event grouping still require PASS.
-If Silver supplies candidates, R4 must pass; no automatic Gold label promotion.
-Script 04 still makes BLANK review sheets; provisional text-hash group is NOT a verified event cluster.
-User reports .venv Python 3.11.7 + pandas 3.1.0 + pip check OK; prior R5/R6 reports remain historical.
-Do not reinstall packages or infer any date; no training, dataset, Gold or checkpoint mutation.
-Next: T-003A reviewer protocol; address source-specific R1/R2/R3 before Gold pilot execution.
+T-003A DONE (design only, 2026-10-27); T-003B BLOCKED; Gold not sealed.
+T-003A artifacts: docs/GOLD_PILOT_PROTOCOL.md and docs/GOLD_RECORD.schema.json.
+Synthetic-only fixtures: docs/GOLD_SYNTHETIC_EXAMPLES.json (10 examples, never Gold).
+Agent reported schema self-check, 10 valid fixtures and 19 invalid-case checks PASS.
+ADR-0004 supersedes ADR-0003: publication dates optional for Vietnamese NLP Gold.
+Split verified article/document-family/event groups, not dates or individual rows; freeze test.
+R1 source rights, R2 article-target identity and R3 event grouping must PASS for included records.
+R2 master has 29 validated ticker identities; individual article links remain unverified.
+R4 gates Silver candidate reuse; do not automatically promote Silver labels.
+Local Python/pandas/pip checks OK; full R5/CUDA not verified; R6 BLK-031 unresolved.
+Script 04 generates blank review sheets; provisional text hash is not a verified event group.
+Next: check T-003A documents against ADR-0004 and resolve source gates before T-003B.
