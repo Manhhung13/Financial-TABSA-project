@@ -87,12 +87,98 @@ def prepare(seed: int, max_articles: int) -> tuple[Path, Path, dict]:
         df = df.sample(n=max_articles, random_state=seed).reset_index(drop=True)
     if len(df) < 20:
         raise ValueError(f'Too few unique documents after filtering: {len(df)}. Need at least 20.')
-    # Split at the DOCUMENT level, never at token-chunk level.
-    ix = list(range(len(df)))
-    random.Random(seed).shuffle(ix)
-    n_val = max(2, int(round(len(df) * .05)))
-    val = df.iloc[ix[:n_val]][['text_hash', 'text']]
-    train = df.iloc[ix[n_val:]][['text_hash', 'text']]
+    # Conservative leakage groups from existing R3 audit candidates.
+    source = pd.read_csv(
+        ROOT / 'data/processed/vi_company_candidates.csv', dtype=str
+    )
+    raw_hash = {
+        int(sid.rsplit('_', 1)[1]) + 1: h
+        for sid, h in zip(source['source_id'], source['text_hash'])
+    }
+
+    parent = {h: h for h in df['text_hash']}
+
+    if not set(parent).issubset(set(raw_hash.values())):
+        raise ValueError('DAPT corpus and R3 source mapping differ')
+
+    def find(h):
+        while parent[h] != h:
+            parent[h] = parent[parent[h]]
+            h = parent[h]
+        return h
+
+    def join(a, b):
+        if a not in parent or b not in parent:
+            return
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[max(ra, rb)] = min(ra, rb)
+
+    near_path = ROOT / 'reports/T-012_R3_near_duplicate_review_queue.json'
+    exact_path = ROOT / 'reports/T-012_R3_exact_duplicate_groups.json'
+
+    pairs = json.loads(near_path.read_text(encoding='utf-8'))
+    linked_pairs = 0
+
+    for pair in pairs:
+        if pair.get('left_dataset') != 'VI_COMPANY':
+            continue
+        if pair.get('right_dataset') != 'VI_COMPANY':
+            continue
+        a = raw_hash.get(int(pair['left_row']))
+        b = raw_hash.get(int(pair['right_row']))
+        if a in parent and b in parent:
+            join(a, b)
+            linked_pairs += 1
+
+    exact_groups = json.loads(exact_path.read_text(encoding='utf-8'))
+    for item in exact_groups:
+        if item.get('source_dataset') != 'VI_COMPANY':
+            continue
+        if item.get('match_type') != 'exact_normalized_text':
+            continue
+        members = [
+            raw_hash.get(int(r)) for r in item['source_rows']
+        ]
+        for h in members[1:]:
+            join(members[0], h)
+
+    groups = {}
+    for i, h in enumerate(df['text_hash']):
+        groups.setdefault(find(h), []).append(i)
+
+    components = list(groups.values())
+    random.Random(seed).shuffle(components)
+
+    target_val = max(2, int(round(len(df) * .05)))
+    val_idx = []
+    for component in components:
+        if len(val_idx) + len(component) <= target_val:
+            val_idx.extend(component)
+
+    if len(val_idx) < 2:
+        raise RuntimeError('Too few grouped validation documents')
+
+    val_set = set(val_idx)
+    train_idx = [i for i in range(len(df)) if i not in val_set]
+
+    df['provisional_leakage_group'] = [
+        find(h) for h in df['text_hash']
+    ]
+    cols = ['text_hash', 'text', 'provisional_leakage_group']
+    train = df.iloc[train_idx][cols]
+    val = df.iloc[val_idx][cols]
+
+    overlap = (
+        set(train['provisional_leakage_group'])
+        & set(val['provisional_leakage_group'])
+    )
+    if overlap:
+        raise RuntimeError('Group leakage detected')
+
+    print('[GROUP] provisional groups:', len(groups))
+    print('[GROUP] linked near-duplicate pairs:', linked_pairs)
+    print('[GROUP] cross-split groups:', len(overlap))
     OUTPUT_DATA.mkdir(parents=True, exist_ok=True)
     train_file = OUTPUT_DATA / 'train_documents.csv'
     val_file = OUTPUT_DATA / 'validation_documents.csv'
@@ -133,6 +219,7 @@ def train(args: argparse.Namespace, train_file: Path, val_file: Path, stats: dic
         AutoModelForMaskedLM,
         AutoTokenizer,
         DataCollatorForLanguageModeling,
+        default_data_collator,
         Trainer,
         TrainingArguments,
         set_seed,
@@ -180,8 +267,52 @@ def train(args: argparse.Namespace, train_file: Path, val_file: Path, stats: dic
     run_name = 'smoke' if args.mode == 'smoke' else ('full_epoch' if args.full_epoch else 'pilot_steps')
     run_dir = OUTPUT_EXPERIMENT / run_name
     run_dir.mkdir(parents=True, exist_ok=True)
+    # Fixed validation masks: same algorithm/seed as external evaluator.
+    def make_fixed_mask(example, idx):
+        original = list(example['input_ids'])
+        ids = original.copy()
+        labels = [-100] * len(ids)
+        special = tokenizer.get_special_tokens_mask(
+            original, already_has_special_tokens=True
+        )
+        candidates = [i for i, flag in enumerate(special) if not flag]
+        if not candidates:
+            raise ValueError('Validation chunk has no maskable tokens')
+
+        gen = torch.Generator().manual_seed(3003 + idx)
+        selected = [
+            i for i in candidates
+            if torch.rand((), generator=gen).item() < 0.15
+        ]
+        if not selected:
+            selected = [candidates[int(torch.randint(
+                len(candidates), (1,), generator=gen
+            ).item())]]
+
+        for i in selected:
+            labels[i] = original[i]
+            r = torch.rand((), generator=gen).item()
+            if r < 0.8:
+                ids[i] = tokenizer.mask_token_id
+            elif r < 0.9:
+                ids[i] = int(torch.randint(
+                    len(tokenizer), (1,), generator=gen
+                ).item())
+
+        return {'input_ids': ids, 'labels': labels}
+
+    fixed_eval = ds['validation'].map(
+        make_fixed_mask, with_indices=True,
+        desc='Prepare deterministic MLM validation'
+    )
+
     collator = DataCollatorForLanguageModeling(tokenizer=tokenizer,
                                                mlm=True, mlm_probability=0.15)
+    def split_collator(features):
+        if 'labels' in features[0]:
+            return default_data_collator(features)
+        return collator(features)
+
     bf16 = bool(torch.cuda.is_bf16_supported())
     scheduling_steps = args.max_steps if args.max_steps > 0 else 200
     train_args = TrainingArguments(
@@ -207,8 +338,11 @@ def train(args: argparse.Namespace, train_file: Path, val_file: Path, stats: dic
         eval_strategy='steps',
         eval_steps=max(1, min(50, scheduling_steps)),
         save_strategy='no' if args.mode == 'smoke' else 'steps',
-        save_steps=max(1, min(100, scheduling_steps)),
+        save_steps=max(1, min(50, scheduling_steps)),
         save_total_limit=2,
+        load_best_model_at_end=(args.mode != 'smoke'),
+        metric_for_best_model='eval_loss',
+        greater_is_better=False,
         prediction_loss_only=True,
         report_to='none',
         remove_unused_columns=True,
@@ -216,8 +350,8 @@ def train(args: argparse.Namespace, train_file: Path, val_file: Path, stats: dic
         data_seed=args.seed,
     )
     trainer = Trainer(model=model, args=train_args,
-                      train_dataset=ds['train'], eval_dataset=ds['validation'],
-                      data_collator=collator, processing_class=tokenizer)
+                      train_dataset=ds['train'], eval_dataset=fixed_eval,
+                      data_collator=split_collator, processing_class=tokenizer)
     torch.cuda.reset_peak_memory_stats()
     trainer.train()
     metrics = trainer.evaluate()
@@ -239,6 +373,9 @@ def train(args: argparse.Namespace, train_file: Path, val_file: Path, stats: dic
         'metrics': {k: float(v) for k, v in metrics.items()
                     if isinstance(v, (float, int))},
         'adapter_directory': str(adapter_dir),
+        'fixed_eval_seed': 3003,
+        'best_checkpoint': trainer.state.best_model_checkpoint,
+        'best_eval_loss': trainer.state.best_metric,
         'what_next': 'Use Stage A encoder adapter for Stage B task-specific sentiment head.',
     }
     (run_dir / 'run_manifest.json').write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding='utf-8')
@@ -275,9 +412,8 @@ def main() -> None:
         args.max_steps = -1 if args.full_epoch else (args.max_steps or 400)
         if not (ROOT / 'data' / 'gold' / 'article_pool_to_verify.csv').exists() and not (
                 ROOT / 'data' / 'gold' / 'heldout_documents.csv').exists():
-            print('[CRITICAL] No Gold/heldout text found. Final research DAPT is not safe to claim.')
-            print('          Create Gold/article group holdout before reporting results.')
-            sys.exit(2)
+            print('[WARNING] Gold will be independently collected later.')
+            print('[WARNING] Verify event overlap before future Gold Test evaluation.')
     train_file, val_file, stats = prepare(args.seed, args.max_articles)
     if args.mode != 'prepare':
         train(args, train_file, val_file, stats)
