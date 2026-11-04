@@ -1,0 +1,75 @@
+{
+  "created_utc": "2026-11-04T15:54:23.213293+00:00",
+  "stage": "B",
+  "dataset": "SEntFiN split_v2",
+  "selected_configuration": "B6",
+  "selection_metric": "validation_macro_f1",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "test_evaluated": false,
+  "runs": [
+    {
+      "seed": 42,
+      "arm": "E0",
+      "best_checkpoint": "D:\\financial-tabsa\\experiments\\stage_B_sentfin_entity_sentiment\\tuning_v1\\B6_s42\\e0\\train\\trainer_checkpoints\\checkpoint-1750",
+      "adapter_directory": "D:\\financial-tabsa\\experiments\\stage_B_sentfin_entity_sentiment\\tuning_v1\\B6_s42\\e0\\train\\adapter_B",
+      "validation_macro_f1": 0.7814486111735799,
+      "train_sha256": "b5d9bf935d93fbf7398381f4459856cdc516ddd5d1f4be158142e8846ab638b1",
+      "validation_sha256": "874f63086195887d95b7ff032f1af3ad43f9d17cd62255bfc0d40c0c8fb53dc6",
+      "stage_a_adapter_sha256": null
+    },
+    {
+      "seed": 42,
+      "arm": "E1",
+      "best_checkpoint": "D:\\financial-tabsa\\experiments\\stage_B_sentfin_entity_sentiment\\tuning_v1\\B6_s42\\e1\\train\\trainer_checkpoints\\checkpoint-1750",
+      "adapter_directory": "D:\\financial-tabsa\\experiments\\stage_B_sentfin_entity_sentiment\\tuning_v1\\B6_s42\\e1\\train\\adapter_B",
+      "validation_macro_f1": 0.7891221068164388,
+      "train_sha256": "b5d9bf935d93fbf7398381f4459856cdc516ddd5d1f4be158142e8846ab638b1",
+      "validation_sha256": "874f63086195887d95b7ff032f1af3ad43f9d17cd62255bfc0d40c0c8fb53dc6",
+      "stage_a_adapter_sha256": "ddd625cfe3ab72de0c88b704891c00b076dddfda76a51c256303b44bfefc5f78"
+    },
+    {
+      "seed": 123,
+      "arm": "E0",
+      "best_checkpoint": "D:\\financial-tabsa\\experiments\\stage_B_sentfin_entity_sentiment\\tuning_v1\\B6_s123\\e0\\train\\trainer_checkpoints\\checkpoint-1625",
+      "adapter_directory": "D:\\financial-tabsa\\experiments\\stage_B_sentfin_entity_sentiment\\tuning_v1\\B6_s123\\e0\\train\\adapter_B",
+      "validation_macro_f1": 0.7849404265678667,
+      "train_sha256": "b5d9bf935d93fbf7398381f4459856cdc516ddd5d1f4be158142e8846ab638b1",
+      "validation_sha256": "874f63086195887d95b7ff032f1af3ad43f9d17cd62255bfc0d40c0c8fb53dc6",
+      "stage_a_adapter_sha256": null
+    },
+    {
+      "seed": 123,
+      "arm": "E1",
+      "best_checkpoint": "D:\\financial-tabsa\\experiments\\stage_B_sentfin_entity_sentiment\\tuning_v1\\B6_s123\\e1\\train\\trainer_checkpoints\\checkpoint-1875",
+      "adapter_directory": "D:\\financial-tabsa\\experiments\\stage_B_sentfin_entity_sentiment\\tuning_v1\\B6_s123\\e1\\train\\adapter_B",
+      "validation_macro_f1": 0.8019304670507736,
+      "train_sha256": "b5d9bf935d93fbf7398381f4459856cdc516ddd5d1f4be158142e8846ab638b1",
+      "validation_sha256": "874f63086195887d95b7ff032f1af3ad43f9d17cd62255bfc0d40c0c8fb53dc6",
+      "stage_a_adapter_sha256": "ddd625cfe3ab72de0c88b704891c00b076dddfda76a51c256303b44bfefc5f78"
+    },
+    {
+      "seed": 2026,
+      "arm": "E0",
+      "best_checkpoint": "D:\\financial-tabsa\\experiments\\stage_B_sentfin_entity_sentiment\\tuning_v1\\B6_s2026\\e0\\train\\trainer_checkpoints\\checkpoint-1750",
+      "adapter_directory": "D:\\financial-tabsa\\experiments\\stage_B_sentfin_entity_sentiment\\tuning_v1\\B6_s2026\\e0\\train\\adapter_B",
+      "validation_macro_f1": 0.7767104335357836,
+      "train_sha256": "b5d9bf935d93fbf7398381f4459856cdc516ddd5d1f4be158142e8846ab638b1",
+      "validation_sha256": "874f63086195887d95b7ff032f1af3ad43f9d17cd62255bfc0d40c0c8fb53dc6",
+      "stage_a_adapter_sha256": null
+    },
+    {
+      "seed": 2026,
+      "arm": "E1",
+      "best_checkpoint": "D:\\financial-tabsa\\experiments\\stage_B_sentfin_entity_sentiment\\tuning_v1\\B6_s2026\\e1\\train\\trainer_checkpoints\\checkpoint-1875",
+      "adapter_directory": "D:\\financial-tabsa\\experiments\\stage_B_sentfin_entity_sentiment\\tuning_v1\\B6_s2026\\e1\\train\\adapter_B",
+      "validation_macro_f1": 0.784220609424907,
+      "train_sha256": "b5d9bf935d93fbf7398381f4459856cdc516ddd5d1f4be158142e8846ab638b1",
+      "validation_sha256": "874f63086195887d95b7ff032f1af3ad43f9d17cd62255bfc0d40c0c8fb53dc6",
+      "stage_a_adapter_sha256": "ddd625cfe3ab72de0c88b704891c00b076dddfda76a51c256303b44bfefc5f78"
+    }
+  ]
+}
